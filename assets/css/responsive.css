@@ -1,0 +1,631 @@
+@media screen and (min-width:1270px) {
+/*HACK*/
+  /* Hakfnd Normal CSS */
+  .container {
+    padding: 0;
+  }
+}
+
+@media screen and (max-width:1269px) {
+  /* Hakfnd Normal CSS */
+  .hakfnd-navigation ul {
+    max-width: 441px;
+  }
+}
+
+@media screen and (min-width:1200px) {
+/*HACK*/
+  /* Hakfnd Normal CSS */
+  .container {
+    max-width: 1110px;
+  }
+}
+
+@media screen and (max-width:1199px) {
+  /* Hakfnd Normal CSS */
+  .hakfnd-navigation ul {
+    max-width: 366px;
+  }
+/*HACK*/
+.banner-right-img .hakfnd-image {
+    right: 40px;
+  }
+  .hakfnd-section-title h2 {
+    font-size: 36px;
+  }
+  .hack-info h2 {
+    line-height: 32px;
+  }
+  .hakfnd-banner .hakfnd-social .fa-facebook, .hakfnd-banner .hakfnd-social .fa-twitter, .hakfnd-banner .hakfnd-social .fa-youtube-play, .hakfnd-banner .hakfnd-social .fa-linkedin {
+    font-size: 28px;
+  }
+  .hakfnd-rectangle:before, .hakfnd-portfolio:after {
+    -webkit-transform: rotate(-30deg) scale(2.2);
+    -ms-transform: rotate(-30deg) scale(2.2);
+    transform: rotate(-30deg) scale(2.2);
+  }
+/*HACK*/
+  .hakfnd-hack:after {
+    -webkit-transform: rotate(30deg) scale(2.2);
+    -ms-transform: rotate(30deg) scale(2.2);
+    transform: rotate(30deg) scale(2.2);
+  }
+}
+
+@media screen and (max-width:991px) {
+/*HACK*/
+    /* Hakfnd Normal CSS */
+  .languages {
+    padding-left: 25px;
+  }
+/*HACK*/
+  .hakfnd-toggle {
+    margin-left: 25px;
+  }
+  .hakfnd-navigation ul {
+    max-width: 261px;
+  }
+/*HACK*/
+  .banner-info {
+    padding-right: 0;
+  }
+  .hakfnd-background {
+    display: none;
+  }
+/*HACK*/
+  .hakfnd-banner {
+    padding: 100px 0 70px;
+    text-align: center;
+  }
+/*HACK*/
+.banner-right-img .hakfnd-image {
+    position: static;
+  }
+/*HACK*/
+  .hakfnd-banner .hakfnd-social {
+    position: static;
+    width: auto;
+    padding-top: 30px;
+  }
+  .hakfnd-banner .hakfnd-social a {
+    margin: 0 10px;
+    color: #2e364a;
+  }
+  .hakfnd-banner .hakfnd-social a:hover, .hakfnd-banner .hakfnd-social a:focus {
+    color: #ed6a6a;
+  }
+/*HACK*/
+  .banner-right-img {
+    padding-top: 40px;
+  }
+  .hakfnd-section-title {
+    padding-bottom: 30px;
+  }
+  .hack-title {
+    max-width: none;
+    padding-bottom: 50px;
+    margin: 0;
+    text-align: center;
+    font-size: 28px;
+  }
+  .hack-item, .hack-item.hack-spacer-two {
+    margin-top: 0;
+  }
+  .hack-info br, .company-invest br {
+    display: none;
+  }
+  .hack-info h2 {
+    padding-bottom: 10px;
+    font-size: 18px;
+    line-height: 26px;
+  }
+  .hack-white-color-item {
+    color: #2e364a;
+  }
+  .hakfnd-ecosystem .hakfnd-section-title {
+    padding-bottom: 50px;
+  }
+  .investors-item .hakfnd-icon img {
+    max-width: 75px;
+  }
+  .overview-title {
+    padding-bottom: 30px;
+    font-size: 28px;
+  }
+  .skill-main-title {
+    padding-bottom: 40px;
+  }
+  .hakfnd-portfolio {
+    padding: 70px 0 40px;
+  }
+  .hakfnd-portfolio .hakfnd-section-title {
+    padding-bottom: 10px;
+  }
+  .portfolio-main-title {
+    padding-bottom: 25px;
+    font-size: 26px;
+  }
+  .traction {
+    padding: 0;
+  }
+  .aquired-item {
+    padding: 20px;
+    margin-bottom: 30px;
+  }
+  .featured-item {
+    padding: 20px 20px 40px;
+    margin-bottom: 30px;
+  }
+  .portfolio-item-wrap {
+    padding-bottom: 20px;
+  }
+  .company-invest-title {
+    padding-bottom: 15px;
+  }
+  .hakfnd-team .hakfnd-section-title {
+    padding-bottom: 95px;
+  }
+  .company-invest-item {
+    padding-bottom: 20px;
+  }
+  .team-item {
+    margin-bottom: 120px;
+  }
+/*HACK*/
+.team-item .hakfnd-image {
+    margin-top: -115px;
+  }
+  .hakfnd-advisors {
+    margin-top: -30px;
+  }
+  .hakfnd-advisors .hakfnd-section-title {
+    padding-bottom: 25px;
+  }
+  .advisor-item {
+    padding-bottom: 40px;
+  }
+/*HACK*/
+.advisor-item .hakfnd-image, .documentation-title {
+    padding-bottom: 20px;
+  }
+  .advisor-item h3 {
+    padding-bottom: 10px;
+  }
+  .hakfnd-documentation {
+    padding-bottom: 0;
+  }
+  .hakfnd-footer {
+    padding: 60px 0;
+  }
+  .footer-item p br {
+    display: none;
+  }
+  .footer-link {
+    padding-left: 50px;
+  }
+  .footer-social {
+    padding-top: 30px;
+  }
+  .footer-social .hakfnd-social a {
+    margin: 0 20px 0 0;
+  }
+}
+
+@media screen and (max-width:767px) {
+  /* Hakfnd Normal CSS */
+  p {
+    font-size: 14px;
+    line-height: 24px;
+  }
+/*HACK*/
+    .header-right {
+    position: static;
+  }
+  .top-btn .hakfnd-small-btn {
+    padding: 8px 20px;
+    font-size: 12px;
+  }
+/*HACK*/
+    .languages {
+    padding-left: 10px;
+  }
+  .languages select {
+    width: 84px;
+    padding-right: 20px;
+  }
+/*HACK*/
+  .hakfnd-toggle {
+    width: 23px;
+    height: 17px;
+    margin-left: 15px;
+  }
+/*HACK*/
+  .hakfnd-toggle .toggle-separator {
+    height: 3px;
+    margin-top: 7px;
+  }
+/*HACK*/
+  .hakfnd-toggle .toggle-separator:before {
+    top: -7px;
+    height: 3px;
+  }
+/*HACK*/
+  .hakfnd-toggle .toggle-separator:after {
+    top: 7px;
+    height: 3px;
+  }
+/*HACK*/
+  .hakfnd-toggle.active .toggle-separator:before {
+    -webkit-transform: translateY(7px) rotateZ(-45deg);
+    -ms-transform: translateY(7px) rotateZ(-45deg);
+    transform: translateY(7px) rotateZ(-45deg)
+  }
+/*HACK*/
+.hakfnd-toggle.active .toggle-separator:after {
+    -webkit-transform: translateY(-7px) rotateZ(45deg);
+    -ms-transform: translateY(-7px) rotateZ(45deg);
+    transform: translateY(-7px) rotateZ(45deg)
+  }
+/*HACK*/
+  .hakfnd-navigation {
+    width: 100%;
+  }
+  .hakfnd-navigation ul {
+    max-width: none;
+    padding-bottom: 25px;
+    text-align: center;
+  }
+  .hakfnd-navigation ul li a {
+    padding: 10px 15px;
+  }
+/*HACK*/
+  .hakfnd-navigation .hakfnd-toggle {
+    display: block;
+  }
+/*HACK*/
+  .hakfnd-banner {
+    padding: 50px 0 35px;
+  }
+  .banner-info h1, .hakfnd-section-title h2 {
+    font-size: 26px;
+    line-height: 34px;
+  }
+/*HACK*/
+.banner-info .hakfnd-image {
+    padding-bottom: 15px;
+  }
+  .banner-info h1 {
+    padding-bottom: 10px;
+  }
+/*HACK*/
+  .hakfnd-btn-wrap {
+    padding-top: 10px;
+  }
+  .forbes {
+    padding-top: 20px;
+  }
+/*HACK*/
+  .hakfnd-rectangle:before, .hakfnd-portfolio:after, .hakfnd-hack:after {
+    display: none;
+  }
+  .hakfnd-section-title {
+    padding-bottom: 15px;
+  }
+  .hakfnd-section-title h2 {
+    padding-bottom: 8px;
+  }
+  .hack-title {
+    padding-bottom: 25px;
+    font-size: 22px;
+    line-height: 32px;
+  }
+  .hack-item {
+    padding: 0 0 25px;
+    text-align: center;
+  }
+  .hack-item .textright {
+    text-align: center;
+  }
+  .hack-info {
+    padding-top: 15px;
+  }
+  .hakfnd-ecosystem {
+    padding: 5px 0 50px;
+  }
+  .hakfnd-ecosystem .hakfnd-section-title {
+    padding-bottom: 25px;
+  }
+  .ecosystem-link a {
+    min-width: 200px;
+    padding: 10px 25px;
+  }
+  .investors-item {
+    padding-bottom: 20px;
+  }
+/*HACK*/  
+.investors-item .hakfnd-icon {
+    padding-bottom: 15px;
+  }
+  .investors-item h3 {
+    padding-bottom: 8px;
+  }
+  .investor-benefits {
+    padding-top: 5px;
+  }
+  .investor-benefits h2 {
+    padding-bottom: 20px;
+    font-size: 26px;
+    line-height: 34px;
+  }
+  .benefit-item {
+    padding-bottom: 20px;
+  }
+/*HACK*/
+  .benefit-item .hakfnd-icon {
+    float: none;
+  }
+  .benefit-info {
+    text-align: center;
+    padding: 10px 0 0;
+  }
+  .hakfnd-investors {
+    padding-bottom: 20px;
+  }
+  .hakfnd-overview {
+    padding: 50px 0;
+    background: #323a4f;
+  }
+  .overview-title {
+    padding-bottom: 20px;
+    font-size: 24px;
+    line-height: 34px;
+  }
+ 
+.overview-item {
+    padding-bottom: 10px;
+  }
+    
+.overview-item h3 span {
+    color: #ff6967;     
+    }  
+   
+  .traction h2 {
+    padding-bottom: 0;
+    font-size: 45px;
+    line-height: 52px;
+  }
+  .hakfnd-skill {
+    padding-top: 10px;
+  }
+  .skill-main-title {
+    padding-bottom: 25px;
+    font-size: 28px;
+  }
+  .skill-item {
+    padding-bottom: 20px;
+  }
+  .skill-subtitle {
+    padding-top: 0;
+  }
+  .skill-logo {
+    padding: 20px 0 0;
+  }
+/*HACK*/
+.skill-logo .hakfnd-image {
+    padding: 15px;
+  }
+  .hakfnd-portfolio {
+    padding: 50px 0 5px;
+  }
+  .portfolio-main-title {
+    padding-bottom: 15px;
+    font-size: 22px;
+    line-height: 30px;
+  }
+  .portfolio-item-wrap {
+    padding-bottom: 10px;
+  }
+  .aquired-item {
+    margin-bottom: 25px;
+  }
+/*HACK*/
+.aquired-item .hakfnd-image {
+    padding-bottom: 5px;
+  }
+  .portfolio-link {
+    padding: 0;
+  }
+  .featured-item {
+    padding: 25px 25px 15px;
+    margin-bottom: 25px;
+  }
+  .company-invest {
+    padding-top: 15px;
+  }
+  .company-invest-title {
+    padding-bottom: 10px;
+    font-size: 26px;
+    line-height: 32px;
+  }
+  .company-invest-wrap {
+    padding-top: 20px;
+  }
+/*HACK*/
+  .company-invest-item .hakfnd-icon {
+    float: none;
+  }
+  .company-invest-info {
+    padding: 10px 0 0;
+    text-align: center;
+  }
+  .language-option {
+    padding-bottom: 25px;
+  }
+  .team-item {
+    padding: 30px 25px 20px;
+  }
+  div:last-child > .team-item {
+    margin-bottom: 0;
+  }
+/*HACK*/
+.team-item .hakfnd-image {
+    padding-bottom: 15px;
+  }
+  .team-item h3 {
+    padding-bottom: 10px;
+  }
+  .team-item h4 {
+    min-height: 10px;
+    padding-bottom: 10px;
+  }
+  .team-item p {
+    min-height: 10px;
+    font-size: 14px;
+  }
+/*HACK*/
+  .team-item .hakfnd-icon, .advisor-item .hakfnd-icon {
+    padding-top: 0;
+    font-size: 28px;
+  }
+/*HACK*/
+.hakfnd-advisors .hakfnd-section-title, .advisor-item .hakfnd-image {
+    padding-bottom: 15px;
+  }
+  .hakfnd-advisors {
+    padding: 50px 0 20px;
+    margin-top: 0;
+  }
+  .advisor-item {
+    padding: 0 0 30px;
+  }
+  .bottom-background {
+    padding-top: 50px;
+    background: #323a4f;
+  }
+  .hakfnd-token .hakfnd-section-title {
+    padding-bottom: 30px;
+    color: #ffffff;
+  }
+/*HACK*/
+  .hakfnd-section-title .hakfnd-btn-wrap {
+    padding-top: 5px;
+  }
+  .token-title {
+    height: 70px;
+  }
+  .token-title p {
+    font-size: 14px;
+  }
+  .table-responsive {
+    padding: 5px 15px;
+  }
+  .token-item {
+    margin-bottom: 25px;
+  }
+  .table-responsive p {
+    font-size: 14px;
+    padding: 0 0 10px;
+  }
+  .hakfnd-documentation {
+    padding-top: 20px;
+  }
+  .hakfnd-documentation .hakfnd-section-title {
+    padding-bottom: 25px;
+  }
+  .hakfnd-footer {
+    padding: 20px 0 30px;
+  }
+/*HACK*/
+.footer-item .hakfnd-logo {
+    padding: 0 0 5px;
+  }
+  .footer-item h2 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .footer-item p {
+    padding: 0;
+  }
+  .footer-link {
+    padding: 25px 0 0;
+  }
+  .footer-social, .hakfnd-copyright {
+    padding-top: 25px;
+  }
+/*HACK*/
+  .footer-social .hakfnd-social {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width:575px) {
+
+/*HACK*/    
+   /* Hakfnd Normal CSS */
+  .container {
+    padding: 0 25px;
+  }
+  .investor-benefits h2 {
+    font-size: 22px;
+    line-height: 30px;
+  }
+  .skill-main-title {
+    font-size: 24px;
+    line-height: 32px;
+  }
+}
+
+@media screen and (max-width:479px) {
+/*HACK*/
+  /* Hakfnd Normal CSS */
+  .top-btn {
+    display: none;
+  }
+  .mobile-menu-item {
+    display: block;
+  }
+  .banner-info h1, .hakfnd-section-title h2, .company-invest-title, .skill-main-title, .overview-title {
+    font-size: 22px;
+    line-height: 30px;
+  }
+/*HACK*/
+  .hakfnd-banner .hakfnd-social, .hakfnd-banner .hakfnd-social .fa-facebook, .hakfnd-banner .hakfnd-social .fa-twitter, .hakfnd-banner .hakfnd-social .fa-youtube-play, .hakfnd-banner .hakfnd-social .fa-linkedin {
+    font-size: 20px;
+  }
+  .hack-title {
+    padding-bottom: 15px;
+    font-size: 20px;
+  }
+  .hack-info h2 {
+    padding-bottom: 5px;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .investor-benefits h2 {
+    font-size: 18px;
+    line-height: 26px;
+  }
+  .hakfnd-team .hakfnd-section-title {
+    padding-bottom: 75px;
+  }
+  .team-item {
+    margin-bottom: 100px;
+  }
+/*HACK*/
+.team-item .hakfnd-image {
+    margin-top: -95px;
+  }
+  .team-item .hakfnd-image img, .advisor-item .hakfnd-image img {
+    max-width: 120px;
+  }
+  .token-title {
+    height: auto;
+  }
+}
+
+@media screen and (max-width:359px) {
+  /* Hakfnd Normal CSS */
+  .team-item h3 {
+    font-size: 18px;
+  }
+}
