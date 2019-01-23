@@ -309,7 +309,7 @@ Hakfnd Elements CSS CSS
 
 /*HACK*/
 .btn-wrapper {
-    padding-left: 3em;
+    /*padding-left: 3em;*/
     padding-top: 1em;
     padding-bottom: 1em;
 }
@@ -797,11 +797,8 @@ Hakfnd Header CSS
     padding-top: 30px;
 }
 
-.as-seen-in-2 h4 {
-    padding-bottom: 20px;
-    font-family: 'Roboto', sans-serif;
-    font-size: 18px;
-    font-weight: 400;
+.as-seen-in .hakfnd-icon img, .as-seen-in-2 .hakfnd-icon img {
+    width: 150px;
 }
 
 .more-press {

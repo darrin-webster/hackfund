@@ -19,6 +19,7 @@
   .container {
     max-width: 1110px;
   }
+  
 }
 
 @media screen and (max-width:1199px) {
@@ -49,6 +50,9 @@
     -webkit-transform: rotate(30deg) scale(2.2);
     -ms-transform: rotate(30deg) scale(2.2);
     transform: rotate(30deg) scale(2.2);
+  }
+  .as-seen-in .hakfnd-icon img, .as-seen-in-2 .hakfnd-icon img, .as-seen-in h4 {
+    display: none;
   }
 }
 
@@ -209,6 +213,13 @@
   .footer-social .hakfnd-social a {
     margin: 0 20px 0 0;
   }
+  .company-invest-item {
+    display: none;
+  }
+
+#map {
+  display: none;
+}
 }
 
 @media screen and (max-width:767px) {
@@ -573,6 +584,9 @@
     font-size: 24px;
     line-height: 32px;
   }
+.partner-item .hakfnd-image img {
+    width: 215px;
+}
 }
 
 @media screen and (max-width:479px) {
@@ -615,11 +629,18 @@
 .team-item .hakfnd-image {
     margin-top: -95px;
   }
-  .team-item .hakfnd-image img, .advisor-item .hakfnd-image img {
+  .team-item .hakfnd-image img,
+  .advisor-item .hakfnd-image img {
     max-width: 120px;
   }
   .token-title {
     height: auto;
+  }
+  .btn-wrapper {
+    padding-right: 42px;
+  }
+  .hakfnd-btn-2 {
+    margin-top: 20px;
   }
 }
 
