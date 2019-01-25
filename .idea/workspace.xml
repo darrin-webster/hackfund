@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="5ed0b17e-5bbd-464a-a02c-349a5ee47608" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/advisors/martin.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/hackfund-3.0-alpha 2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/hackfund-3.0.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -25,8 +26,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="335">
-              <caret line="1341" column="3" lean-forward="true" selection-start-line="1341" selection-start-column="3" selection-end-line="1341" selection-end-column="3" />
+            <state relative-caret-position="120">
+              <caret line="1428" column="34" lean-forward="true" selection-start-line="1428" selection-start-column="34" selection-end-line="1428" selection-end-column="34" />
               <folding>
                 <element signature="n#style#0;n#span#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#span#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -36,17 +37,12 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/images/advisors/advisors-amilcar.png">
+        <entry file="file://$PROJECT_DIR$/assets/images/advisors/martin.png">
           <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/images/advisors/amilcar_chavarria.jpg">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/images/advisors/martin.png">
           <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
@@ -183,12 +179,12 @@
       <workItem from="1546480781037" duration="116000" />
       <workItem from="1547504470511" duration="531000" />
       <workItem from="1547665630787" duration="389000" />
-      <workItem from="1547666647127" duration="276000" />
+      <workItem from="1547666647127" duration="772000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15335000" />
+    <option name="totallyTimeSpent" value="15831000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -215,7 +211,7 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32984293" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32984293" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.42931938" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.42931938" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32984293" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -247,34 +243,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/assets/images/advisors/martin.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/assets/images/advisors/advisor6.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/images/advisors/advisor4.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/images/advisors/advisor3.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/images/advisors/advisor5.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/images/advisors/martin.jpg">
+    <entry file="file://$PROJECT_DIR$/assets/images/advisors/advisor4.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/images/advisors/advisor1.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/images/advisors/advisor3.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/images/advisors/martin.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/images/advisors/amilcar_chavarria.jpg">
+    <entry file="file://$PROJECT_DIR$/assets/images/advisors/advisors-amilcar.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/images/advisors/advisors-amilcar.png">
+    <entry file="file://$PROJECT_DIR$/assets/images/advisors/amilcar_chavarria.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="1341" column="3" lean-forward="true" selection-start-line="1341" selection-start-column="3" selection-end-line="1341" selection-end-column="3" />
+        <state relative-caret-position="120">
+          <caret line="1428" column="34" lean-forward="true" selection-start-line="1428" selection-start-column="34" selection-end-line="1428" selection-end-column="34" />
           <folding>
             <element signature="n#style#0;n#span#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />

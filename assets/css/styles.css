@@ -1,5 +1,5 @@
 @charset "utf-8";
-/* Hack Fund Common CSS CSS */
+/* Hack Fund Common CSS */
 body {
     overflow-x: hidden;
     background: #e9ebfd;
@@ -258,7 +258,6 @@ Hakfnd Elements CSS CSS
     font-size: 15px;
 }
 
-/*HACK*/
 .hakfnd-btn-wrap {
     padding-top: 15px;
 
@@ -307,7 +306,6 @@ Hakfnd Elements CSS CSS
     padding-top: 15px;
 }
 
-/*HACK*/
 .btn-wrapper {
     /*padding-left: 3em;*/
     padding-top: 1em;
@@ -389,36 +387,9 @@ select {
     color: #555555;
 }
 
-/*x86*/
-.table {
-    font-family: 'Roboto', sans-serif;
-}
 
-/*x86*/
-.table td,
-.table th {
-    padding: 12px 20px 12px 0;
-}
-
-/*x86*/
-.table thead th {
-    border-bottom-color: #adb0b9;
-    border-bottom-width: 3px;
-    border-top: none;
-}
-
-/*x86*/
-.table tbody th {
-    border-top-color: #c1c4ca;
-}
-
-/*x86*/
-.table td {
-    border-color: #c1c4ca;
-}
 
 /* Hakfnd Back Top */
-/*x86*/
 .hakfnd-back-top {
     position: fixed;
     bottom: 15px;
@@ -429,12 +400,11 @@ select {
     z-index: 3;
 }
 
-/*x86*/
 .hakfnd-back-top.active {
     right: 90px;
 }
 
-/*x86*/
+
 .hakfnd-back-top a {
     display: block;
     width: 40px;
@@ -449,7 +419,6 @@ select {
     border-radius: 3px;
 }
 
-/*x86*/
 .hakfnd-back-top a:hover, .hakfnd-back-top a:focus {
     background: #2e364a;
     -webkit-border-radius: 100%;
@@ -465,19 +434,16 @@ Hakfnd Header CSS
 
 
 */
-/*x86*/
 .sticky-wrapper:before,
 .sticky-wrapper:after {
     display: table;
     content: "";
 }
 
-/*x86*/
 .sticky-wrapper:after {
     clear: both;
 }
 
-/*x86*/
 .is-sticky,
 .hakfnd-header {
     background: #ffffff;
@@ -486,7 +452,6 @@ Hakfnd Header CSS
     box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
 }
 
-/*HACK*/
 .hakfnd-header {
     padding: 20px 0;
     background: #ffffff;
@@ -496,7 +461,6 @@ Hakfnd Header CSS
     transition: background ease .3s, box-shadow ease .3s;
 }
 
-/*HACK*/
 .header-right {
     position: relative;
     z-index: 3;
@@ -515,7 +479,6 @@ Hakfnd Header CSS
     vertical-align: middle;
 }
 
-/*HACK*/
 .languages {
     display: inline-block;
     vertical-align: middle;
@@ -537,7 +500,6 @@ Hakfnd Header CSS
     display: none;
 }
 
-/*HACK*/
 .hakfnd-toggle {
     display: inline-block;
     vertical-align: middle;
@@ -546,7 +508,6 @@ Hakfnd Header CSS
     margin-left: 40px;
 }
 
-/*HACK*/
 .hakfnd-toggle .toggle-separator {
     display: block;
     width: 100%;
@@ -559,7 +520,7 @@ Hakfnd Header CSS
     transition: all ease .3s;
 }
 
-/*HACK*/
+
 .hakfnd-toggle .toggle-separator:before,
 .hakfnd-toggle .toggle-separator:after {
     position: absolute;
@@ -575,17 +536,14 @@ Hakfnd Header CSS
     z-index: 1;
 }
 
-/*HACK*/
 .hakfnd-toggle .toggle-separator:after {
     top: 8px;
 }
 
-/*HACK*/
 .hakfnd-toggle.active .toggle-separator {
     background: none;
 }
 
-/*HACK*/
 .hakfnd-toggle.active .toggle-separator:before {
     background: #ffffff;
     -webkit-transform: translateY(8px) rotateZ(-45deg);
@@ -593,7 +551,6 @@ Hakfnd Header CSS
     transform: translateY(8px) rotateZ(-45deg)
 }
 
-/*HACK*/
 .hakfnd-toggle.active .toggle-separator:after {
     background: #ffffff;
     -webkit-transform: translateY(-8px) rotateZ(45deg);
@@ -601,7 +558,6 @@ Hakfnd Header CSS
     transform: translateY(-8px) rotateZ(45deg)
 }
 
-/*HACK*/
 .hakfnd-navigation {
     position: fixed;
     top: 0;
@@ -624,7 +580,6 @@ Hakfnd Header CSS
     z-index: 2;
 }
 
-/*HACK*/
 .hakfnd-navigation.open {
     -webkit-transform: translateX(0%);
     -ms-transform: translateX(0%);
@@ -674,7 +629,6 @@ Hakfnd Header CSS
     color: #ed6a6a;
 }
 
-/*HACK*/
 .hakfnd-navigation .hakfnd-toggle {
     display: none;
     position: absolute;
@@ -687,24 +641,20 @@ Hakfnd Header CSS
     display: none;
 }
 
-/*HACK*/
 .brd-banner .container {
     position: relative;
 }
 
 /* Hakfnd Banner CSS */
-
 .hakfnd-banner {
     padding: 120px 0;
     position: relative;
 }
 
-/*HACK*/
 .hakfnd-banner .container {
     position: relative;
 }
 
-/*HACK*/
 .hakfnd-banner .hakfnd-social {
     position: absolute;
     top: 0;
@@ -726,7 +676,7 @@ Hakfnd Header CSS
 
 .hakfnd-banner .hakfnd-social a {
     margin-bottom: 20px;
-    color: #ff6967; /*#ed6a6a;*/
+    color: #ff6967; 
 }
 
 .hakfnd-banner .hakfnd-social a:last-child {
@@ -742,12 +692,10 @@ Hakfnd Header CSS
     color: #ffffff;
 }
 
-/*HACK*/
 .banner-info {
     padding-right: 85px;
 }
 
-/*HACK*/
 .banner-info .hakfnd-image {
     padding-bottom: 15px;
 }
@@ -760,27 +708,6 @@ Hakfnd Header CSS
     letter-spacing: -0.3px;
 }
 
-.brd {
-
-}
-
-.brd h2 {
-    padding-bottom: 20px;
-    font-family: 'Roboto', sans-serif;
-    font-size: 24px;
-    font-weight: 300;
-    color: rgb(237, 106, 106);
-}
-
-.brd h3 {
-    padding-bottom: 20px;
-    font-family: 'Roboto', sans-serif;
-    font-size: 24px;
-    font-weight: 700;
-    color: rgb(237, 106, 106);
-}
-
-/*HACK*/
 .as-seen-in {
     padding-top: 20px;
 }
@@ -792,10 +719,6 @@ Hakfnd Header CSS
     font-weight: 400;
 }
 
-/*HACK*/
-.as-seen-in-2 {
-    padding-top: 30px;
-}
 
 .as-seen-in .hakfnd-icon img, .as-seen-in-2 .hakfnd-icon img {
     width: 150px;
@@ -812,7 +735,6 @@ Hakfnd Header CSS
     font-weight: 500;
 }
 
-/*HACK*/
 .banner-right-img .hakfnd-image {
     position: relative;
     right: 110px;
@@ -855,7 +777,6 @@ Hakfnd Header CSS
     background-position: right center;
 }
 
-/* Hakfnd Hack CSS */
 .hakfnd-rectangle {
     position: relative;
 }
@@ -879,7 +800,7 @@ Hakfnd Header CSS
     z-index: -1;
 }
 
-/*HACK*/
+
 .hakfnd-hack:after {
     position: absolute;
     bottom: 230px;
@@ -940,34 +861,14 @@ Hakfnd Header CSS
     font-size: 22px;
 }
 
-/* Hakfnd Ecosystem CSS */
-.hakfnd-ecosystem {
-    padding: 80px 0 100px;
-}
+/* 
 
-.hakfnd-ecosystem.hakfnd-rectangle:before {
-    top: 670px;
-}
 
-.hakfnd-ecosystem .hakfnd-section-title {
-    padding-bottom: 80px;
-}
+Hakfnd Investors CSS 
 
-.ecosystem-link a {
-    display: inline-block;
-    min-width: 280px;
-    padding: 18px 25px;
-    background: #2e364a;
-    color: #ffffff;
-}
 
-.ecosystem-link a:hover, .ecosystem-link a:focus {
-    background: #ed6a6a;
-}
-
-/* Hakfnd Investors CSS */
+*/
 .hakfnd-investors {
-    /*padding-bottom: 80px;*/
     text-align: center;
 }
 
@@ -979,7 +880,6 @@ Hakfnd Header CSS
     padding-bottom: 35px;
 }
 
-/*HACK*/
 .investors-item .hakfnd-icon {
     padding-bottom: 21px;
 }
@@ -1000,7 +900,6 @@ Hakfnd Header CSS
     font-size: 28px;
 }
 
-/*HACK*/
 .benefit-item .hakfnd-icon {
     float: left;
 }
@@ -1018,7 +917,13 @@ Hakfnd Header CSS
     font-size: 18px;
 }
 
-/* Hakfnd Overview CSS */
+/* 
+
+
+Hakfnd Overview CSS 
+
+
+*/
 .hakfnd-overview {
     padding: 100px 0;
     color: #ffffff;
@@ -1041,15 +946,12 @@ Hakfnd Header CSS
     text-align: center;
     font-weight: 800;
     font-size: 33px;
-    /*color: #ed6a6a;*/
 }
 
 .overview-item {
     padding-bottom: 20px;
 }
 
-/*FIXME
-Create new style specifically for Track Record Overview-item*/
 .overview-item h3 {
     padding-bottom: 5px;
     color: #ed6a6a; /*#ed6a6a*/
@@ -1154,14 +1056,19 @@ Create new style specifically for Track Record Overview-item*/
     padding: 15px 0 20px;
 }
 
-/*HACK*/
 .skill-logo .hakfnd-image {
     display: inline-block;
     vertical-align: middle;
     padding: 15px 25px;
 }
 
-/* Hakfnd Portfolio */
+/* 
+
+
+Hakfnd Portfolio 
+
+
+*/
 .hakfnd-portfolio {
     padding: 100px 0 70px;
 }
@@ -1227,7 +1134,6 @@ Create new style specifically for Track Record Overview-item*/
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
 }
 
-/*HACK*/
 .acquired-item .hakfnd-image {
     padding-bottom: 10px;
 }
@@ -1269,7 +1175,7 @@ Create new style specifically for Track Record Overview-item*/
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
 }
 
-/*HACK*/
+
 .featured-item .hakfnd-image {
     padding-bottom: 20px;
 }
@@ -1293,7 +1199,6 @@ Create new style specifically for Track Record Overview-item*/
     font-size: 22px;
 }
 
-/*HACK*/
 .company-invest-item .hakfnd-icon {
     float: left;
 }
@@ -1304,7 +1209,13 @@ Create new style specifically for Track Record Overview-item*/
     text-align: left;
 }
 
-/* Hakfnd Team */
+/* 
+
+
+Hakfnd Team 
+
+
+*/
 .hakfnd-team.hakfnd-rectangle:before {
     top: auto;
     bottom: -100px;
@@ -1328,7 +1239,6 @@ Create new style specifically for Track Record Overview-item*/
     border-radius: 10px;
 }
 
-/*HACK*/
 .team-item .hakfnd-image {
     padding-bottom: 20px;
     margin-top: -125px;
@@ -1362,7 +1272,6 @@ Create new style specifically for Track Record Overview-item*/
     line-height: 24px;
 }
 
-/*HACK*/
 .team-item .hakfnd-icon,
 .advisor-item .hakfnd-icon {
     padding-top: 10px;
@@ -1397,7 +1306,6 @@ Create new style specifically for Track Record Overview-item*/
     padding: 0 15px 40px;
 }
 
-/*HACK*/
 .advisor-item .hakfnd-image {
     padding-bottom: 20px;
 }
@@ -1431,7 +1339,6 @@ Create new style specifically for Track Record Overview-item*/
     color: #2e364a;
 }
 
-/* Bottom Background */
 .bottom-background {
     padding-top: 40px;
     background-image: url(../images/background-images/background2.png);
@@ -1440,47 +1347,15 @@ Create new style specifically for Track Record Overview-item*/
     background-size: cover;
 }
 
-/* Hakfnd Token */
-/*HACK*/
-.hakfnd-section-title .hakfnd-btn-wrap {
-    padding-top: 10px;
-}
 
-.token-item {
-    margin-bottom: 35px;
-    -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
-    -ms-box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
-}
 
-.token-title {
-    height: 70px;
-    padding: 10px 20px;
-    background: #323a4f;
-    color: #ffffff;
-}
+/* 
 
-.token-title h3 {
-    padding: 0;
-    font-weight: 800;
-    font-size: 18px;
-}
 
-.token-title p {
-    padding: 0;
-}
+Hakfnd Documentation 
 
-.table-responsive .table {
-    margin-bottom: 0;
-}
 
-.table-responsive p {
-    padding: 5px 0 0;
-    color: #323a4f;
-}
-
-/* Hakfnd Documentation */
-
+*/
 .hakfnd-documentation .hakfnd-section-title {
     padding-bottom: 40px;
 }
@@ -1489,7 +1364,13 @@ Create new style specifically for Track Record Overview-item*/
     padding-bottom: 35px;
 }
 
-/* Hakfnd Footer */
+/* 
+
+
+Hakfnd Footer 
+
+
+*/
 .hakfnd-footer {
     background-color: rgb(49, 57, 79);;
     padding: 60px 0 40px;
@@ -1501,7 +1382,6 @@ Create new style specifically for Track Record Overview-item*/
     line-height: 30px;
 }
 
-/*HACK*/
 .footer-item .hakfnd-logo {
     padding: 5px 0 20px;
 }
@@ -1551,7 +1431,6 @@ Create new style specifically for Track Record Overview-item*/
     color: #c2c4cb;
 }
 
-/*HACK*/
 .footer-social .hakfnd-social {
     font-size: 23px;
 }
@@ -1582,46 +1461,19 @@ Create new style specifically for Track Record Overview-item*/
     font-size: 18px;
 }
 
-/*testomonials CSS*/
+/*
+
+
+Testomonials CSS
+
+
+*/
 .logo-spacer {
     padding-bottom: 30px;
-}
-
-.card-deck {
-    margin-right: -75px;
-    margin-left: -75px;
-    padding: 40px;
-}
-
-.card-deck .card {
-    margin-right: 5px;
-    margin-bottom: 0;
-    margin-left: 5px;
-    background-color: inherit;
-}
-
-}
-
-/*.card-img-top {*/
-    /*width: 80%;*/
-    /*border-top-left-radius: calc(.25rem - 1px);*/
-    /*border-top-right-radius: calc(.25rem - 1px)*/
-    /*display: block;*/
-    /*margin-left: auto;*/
-    /*margin-right: auto;*/
-/*}*/
-.card img {
-    margin: 15px;
-    width: 80%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.card {
-    border: none;
 }
 
 .click {
     opacity: .4;
 }
+
+
