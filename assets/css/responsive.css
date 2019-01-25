@@ -47,6 +47,13 @@
     -ms-transform: rotate(30deg) scale(2.2);
     transform: rotate(30deg) scale(2.2);
   }
+  .as-seen-in .hakfnd-icon img, 
+  .as-seen-in-2 .hakfnd-icon img,
+  .as-seen-in,
+  .as-seen-in-2 {
+    display: none;
+  }
+
 }
 
 @media screen and (max-width:991px) {
