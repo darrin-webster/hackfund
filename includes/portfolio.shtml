@@ -1,0 +1,419 @@
+<!--
+*********************************************
+*
+*
+*           Hakfnd Portfolio
+*
+*
+*********************************************
+ -->
+<section class="hakfnd-portfolio hakfnd-rectangle">
+    <div class="container">
+        <!-- HACK Portfolio, sec title -->
+        <div class="hakfnd-section-title">
+            <h2 class="pb-5">Hackers/Founders Portfolio:</h2>
+        </div>
+        <!-- HACK Portfolio, Acquired Startups, list-items, logos & info -->
+        <div class="portfolio-item-wrap acquired-startups" id="section-4">
+            <!-- HACK Portfolio, acquired startups title-->
+            <h2 class="portfolio-main-title">Acquired startups</h2>
+            <!-- HACK Portfolio, acquired startups, Synata -->
+            <div class="row justify-content-center">
+                <div class="col-lg-3 col-md-6">
+                    <div class="acquired-item hacfun-item">
+                        <!-- HACK portfolio, acquired startups, Synata list logo -->
+                        <div class="hakfnd-image">
+                            <img src="assets/images/featured/synata.png" alt="Portfolio" width="190">
+                        </div>
+                        <!-- HACK portfolio, acquired startups Synata list item info -->
+                        <h4>Synata</h4>
+                        <p>Enterprise cloud search engine</p>
+                        <!-- HACK portfolio, acquired startups Synata list item link -->
+                        <h4 class="portfolio-link">
+                            <a target="_blank" href="https://www.cisco.com/c/en/us/about/corporate-strategy-office/acquisitions/synata.html">Acquired by Cisco</a>
+                        </h4>
+                    </div>
+                </div>
+                <!-- HACK portfolio, acquired startups Fiverun -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="acquired-item hacfun-item">
+                        <div class="hakfnd-image">
+                            <img src="assets/images/featured/fiverrun.png" alt="Portfolio" width="190">
+                        </div>
+                        <!-- HACK portfolio, acquired startups, Fiverun list item info -->
+                        <h4>Fiverun</h4>
+                        <p>The Apple Store retail experience for any brick &amp; mortar retailer</p>
+                        <!-- HACK portfolio, acquired startups, Fiverun list item link -->
+                        <h4 class="portfolio-link">
+                            <a target="_blank" href="https://www.businesswire.com/news/home/20160114006269/en/Vista-Equity-Partners-Announces-Acquisition-Fiverun-Launch">Acquired by Vista Equity Partners</a>
+                        </h4>
+                    </div>
+                </div>
+                <!-- HACK portfolio, acquired startups Access Invest -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="acquired-item hacfun-item">
+                        <!-- HACK portfolio, acquired startups, Access Invest logo -->
+                        <div class="hakfnd-image">
+                            <img src="assets/images/featured/access_capitla.png" alt="Portfolio" width="190">
+                        </div>
+                        <!-- HACK portfolio, acquired startups, Access Invest list item info -->
+                        <h4>Access Invest</h4>
+                        <p>Tinder for investing</p>
+                        <!-- HACK portfolio, acquired startups, Access Invest list item link -->
+                        <h4 class="portfolio-link">
+                            <a target="_blank" href="https://www.crunchbase.com/organization/access-invest">Acquired by NCIT</a>
+                        </h4>
+                    </div>
+                </div>
+                <!-- HACK portfolio, acquired startups codeeval list logo -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="acquired-item hacfun-item">
+                        <div class="hakfnd-image">
+                            <img src="assets/images/featured/code_eval.png" alt="Portfolio" width="190">
+                        </div>
+                        <!-- HACK portfolio, acquired startups codeeval list item info -->
+                        <h4>CodeEval</h4>
+                        <p>Technical recruiting technology</p>
+                        <!-- HACK portfolio, acquired startups codeeval list item link -->
+                        <h4 class="portfolio-link">
+                            <a target="_blank" href="https://www.hirevue.com/blog/hirevue-redefines-technical-talent-recruiting-with-acquisition-of-codeeval/">Acquired by HireVue</a>
+                        </h4>
+                    </div>
+                </div>
+                <!-- HACK portfolio, acquired startups cameralends list logo -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="acquired-item hacfun-item">
+                        <!-- HACK portfolio, acquired startups cameralends list item info -->
+                        <div class="hakfnd-image">
+                            <img src="assets/images/featured/cameralends.png" alt="Portfolio" width="190">
+                        </div>
+                        <h4>Cameralends</h4>
+                        <p>AirBnB for camera gear</p>
+                        <!-- HACK portfolio, acquired startups cameralends list item link -->
+                        <h4 class="portfolio-link">
+                            <a target="_blank" href="https://www.forbes.com/sites/nataliesportelli/2017/01/10/kitsplit-acquires-cameralends-to-become-biggest-online-camera-rental-company/#14e43e1e4d5d">Acquired by KitSplit</a>
+                        </h4>
+                    </div>
+                </div>
+                <!-- HACK portfolio, acquired startups pieceable list logo -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="acquired-item hacfun-item">
+                        <div class="hakfnd-image">
+                            <img src="assets/images/featured/peaceable.png" alt="Portfolio" width="190">
+                        </div>
+                        <!-- HACK portfolio, acquired startups pieceable list item info -->
+                        <h4>Pieceable</h4>
+                        <p>Playable mobile app demos on the web</p>
+                        <!-- HACK portfolio, acquired startups pieceable list item link -->
+                        <h4 class="portfolio-link">
+                            <a target="_blank" href="https://techcrunch.com/2012/06/11/facebook-picks-up-the-mobile-development-team-from-pieceable/">Acquired by Facebook</a>
+                        </h4>
+                    </div>
+                </div>
+                <!-- HACK portfolio, acquired startups vidcaster list logo -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="acquired-item hacfun-item">
+                        <div class="hakfnd-image">
+                            <img src="assets/images/featured/portfolio1.png" alt="Portfolio" width="190">
+                        </div>
+                        <!-- HACK portfolio, acquired startups vidcaster list item info -->
+                        <h4>Vidcaster</h4>
+                        <p>Video marketing automation</p>
+                        <!-- HACK portfolio, acquired startups vidcaster list item link -->
+                        <h4 class="portfolio-link">
+                            <a target="_blank" href="https://www.crunchbase.com/organization/vidcaster">Acquired</a>
+                        </h4>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="featured-item hacfun-item">
+                        <!-- HACK portfolio, acquired startups, Tripping logo -->
+                        <div class="hakfnd-image">
+                            <img src="assets/images/featured/tripping.png" alt="Portfolio" width="150">
+                        </div>
+                        <!-- HACK portfolio, acquired startups, Tripping info -->
+                        <h4>Tripping</h4>
+                        <p>#1 search engine for vacation home rentals. Think: Kayak for AirBnB</p>
+                        <!-- HACK portfolio, acquired startups tripping list item link -->
+                        <h4 class="portfolio-link">
+                            <a target="_blank" href="https://www.apnews.com/264de10300bd4144a653b16f450970e8">Acquired</a>
+                        </h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- HACK Portfolio, featured startups -->
+        <!-- HACK Portfolio, featured startups title -->
+        <div class="portfolio-item-wrap featured-startups" id="section-5">
+            <h2 class="portfolio-main-title pt-5">Featured startups</h2>
+            <!-- HACK Portfolio, featured startups list items, logos & info -->
+            <div class="row justify-content-center">
+                <!-- HACK portfolio, featured startups Suiteness -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="featured-item hacfun-item">
+                        <!-- HACK portfolio, featured startups, Suiteness logo-->
+                        <div class="hakfnd-image">
+                            <img src="assets/images/featured/suitenesslg.png" alt="Portfolio" width="150">
+                        </div>
+                        <!-- HACK portfolio, featured startups, Suiteness list item info -->
+                        <h4>Suiteness</h4>
+                        <p>Luxury suites / group booking</p>
+                    </div>
+                </div>
+                <!-- HACK portfolio, featured startups eTips -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="featured-item hacfun-item">
+                        <!-- HACK portfolio, featured startups, eTips logo -->
+                        <div class="hakfnd-image">
+                            <img src="assets/images/featured/etips1.png" alt="Portfolio" width="150">
+                        </div>
+                        <!-- HACK portfolio, featured startups, eTips list item info -->
+                        <h4>eTips</h4>
+                        <p>Largest publisher of mobile travel apps</p>
+                    </div>
+                </div>
+                <!-- HACK portfolio, featured startups Browserling -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="featured-item hacfun-item">
+                        <!-- HACK portfolio, featured startups, Browserling -->
+                        <div class="hakfnd-image">
+                            <img src="assets/images/featured/browserling1.png" alt="Portfolio" width="150">
+                        </div>
+                        <!-- HACK portfolio, featured startups, Browserling list item info -->
+                        <h4>Browserling</h4>
+                        <p>Interactive cross-browser testing</p>
+                    </div>
+                </div>
+                <!-- HACK portfolio, featured startups Zerply -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="featured-item hacfun-item">
+                        <!-- HACK portfolio, featured startups, Zerply logo -->
+                        <div class="hakfnd-image">
+                            <img src="assets/images/featured/zerply1.png" alt="Portfolio" width="150">
+                        </div>
+                        <!-- HACK portfolio, featured startups, Zerply list item info -->
+                        <h4>Zerply</h4>
+                        <p>Connecting creative talent and companies in film, TV, and gaming</p>
+                    </div>
+                </div>
+                <!-- HACK portfolio, featured startups Doppler -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="featured-item hacfun-item">
+                        <!-- HACK portfolio, featured startups, Doppler logo -->
+                        <div class="hakfnd-image">
+                            <img src="assets/images/featured/doppler1.png" alt="Portfolio" width="150">
+                        </div>
+                        <!-- HACK portfolio, featured startups, Doppler list item info -->
+                        <h4>Doppler</h4>
+                        <p>Simple and effective email marketing</p>
+                    </div>
+                </div>
+                <!-- HACK portfolio, featured startups Mi Dulce Hogar -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="featured-item hacfun-item">
+                        <!-- HACK portfolio, featured startups, Mi Dulce Hogar logo -->
+                        <div class="hakfnd-image">
+                            <img src="assets/images/featured/midulcehogar1.png" alt="Portfolio" width="150">
+                        </div>
+                        <!-- HACK portfolio, featured startups, Mi Dulce Hogar list item info -->
+                        <h4>Mi Dulce Hogar</h4>
+                        <p>On-demand home cleaning service</p>
+                    </div>
+                </div>
+                <!-- HACK portfolio, featured startups Code & Modules -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="featured-item hacfun-item">
+                        <!-- HACK portfolio, featured startups, Code & Modules logo -->
+                        <div class="hakfnd-image">
+                            <img src="assets/images/featured/codeandmodules1.png" alt="Portfolio" width="150">
+                        </div>
+                        <!-- HACK portfolio, featured startups, Code & Modules list item info -->
+                        <h4>Code & Modules</h4>
+                        <p>Develop more powerful connected devices and get to market faster</p>
+                    </div>
+                </div>
+                <!-- HACK portfolio, featured startups Rigs -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="featured-item hacfun-item">
+                        <!-- HACK portfolio, featured startups, Rigs logo -->
+                        <div class="hakfnd-image">
+                            <img src="assets/images/featured/rigs1.png" alt="Portfolio" width="150">
+                        </div>
+                        <!-- HACK portfolio, featured startups, Rigs list item info -->
+                        <h4>Rigs</h4>
+                        <p>Centralized information from automotive aftermarket in one place</p>
+                    </div>
+                </div>
+                <!-- HACK portfolio, featured startups, Searchie -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="featured-item hacfun-item">
+                        <!-- HACK portfolio, featured startups, Searchie logo -->
+                        <div class="hakfnd-image">
+                            <img src="assets/images/featured/searchie-logo.png" alt="Portfolio" width="100">
+                        </div>
+                        <!-- HACK portfolio, featured startups,  Searchie item info -->
+                        <h4>Searchie</h4>
+                        <p>Innovator of OpenStack based cloud and infrastructure management software</p>
+                    </div>
+                </div>
+                <!-- HACK portfolio, featured startups skuIQ -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="featured-item hacfun-item">
+                        <!-- HACK portfolio, featured startups, skuIQ logo -->
+                        <div class="hakfnd-image">
+                            <img src="assets/images/featured/skuiq1.png" alt="Portfolio" width="150">
+                        </div>
+                        <!-- HACK portfolio, featured startups, skuIQ list item info -->
+                        <h4>skuIQ</h4>
+                        <p>Integrated commerce platform for retailers with an online and physical store</p>
+                    </div>
+                </div>
+                <!-- HACK portfolio, featured startups Axenda -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="featured-item hacfun-item">
+                        <!-- HACK portfolio, featured startups, Axenda logo -->
+                        <div class="hakfnd-image">
+                            <img src="assets/images/featured/axenda1.png" alt="Portfolio" width="150">
+                        </div>
+                        <!-- HACK portfolio, featured startups, Axenda list item info -->
+                        <h4>Axenda</h4>
+                        <p>Smart platform for construction management</p>
+                    </div>
+                </div>
+                <!-- HACK portfolio, featured startups Social Status -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="featured-item hacfun-item">
+                        <!-- HACK portfolio, featured startups, Social Status logo -->
+                        <div class="hakfnd-image">
+                            <img src="assets/images/featured/socialstatus1.png" alt="Portfolio" width="150">
+                        </div>
+                        <!-- HACK portfolio, featured startups, Social Status list item info -->
+                        <h4>Social Status</h4>
+                        <p>Automate your social media reporting</p>
+                    </div>
+                </div>
+                <!-- HACK portfolio, featured startups Talo -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="featured-item hacfun-item">
+                        <!-- HACK portfolio, featured startups, Talo logo -->
+                        <div class="hakfnd-image">
+                            <img src="assets/images/featured/talo1.png" alt="Portfolio" width="150">
+                        </div>
+                        <!-- HACK portfolio, featured startups, Talo list item info -->
+                        <h4>Talo</h4>
+                        <p>A smart toothbrush that brushes your teeth perfectly in just 10 seconds</p>
+                    </div>
+                </div>
+                <!-- HACK portfolio, featured startups Export Abroad -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="featured-item hacfun-item">
+                        <!-- HACK portfolio, featured startups,Export Abroad logo -->
+                        <div class="hakfnd-image">
+                            <img src="assets/images/featured/exportabroad1.png" alt="Portfolio" width="150">
+                        </div>
+                        <!-- HACK portfolio, featured startups, Export Abroad list item info -->
+                        <h4>Export Abroad</h4>
+                        <p>Exporting. Simplified.</p>
+                    </div>
+                </div>
+                <!-- HACK portfolio, featured startups Synx -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="featured-item hacfun-item">
+                        <!-- HACK portfolio, featured startups, Synx logo -->
+                        <div class="hakfnd-image">
+                            <img src="assets/images/featured/synx1.png" alt="Portfolio" width="150">
+                        </div>
+                        <!-- HACK portfolio, featured startups, Synx list item info -->
+                        <h4>Synx</h4>
+                        <p>Simplifying the processing of large datasets for faster artificial intelligence</p>
+                    </div>
+                </div>
+                <!-- HACK portfolio, featured startups ISAI -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="featured-item hacfun-item">
+                        <!-- HACK portfolio, featured startups, ISAI logo -->
+                        <div class="hakfnd-image">
+                            <img src="assets/images/featured/ISAILogo.jpg" alt="Portfolio" width="80" height="80">
+                        </div>
+                        <!-- HACK portfolio, featured startups, ISAI list item info -->
+                        <h4>ISAI</h4>
+                        <p>Building automation and control</p>
+                    </div>
+                </div>
+                <!-- HACK portfolio, featured startups Silo -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="featured-item hacfun-item">
+                        <!-- HACK portfolio, featured startups, Silo logo -->
+                        <div class="hakfnd-image">
+                            <img src="assets/images/featured/silo1.png" alt="Portfolio" width="150">
+                        </div>
+                        <!-- HACK portfolio, featured startups, Silo list item info -->
+                        <h4>Silo</h4>
+                        <p>A platform for communities of entrepreneurs and innovators</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- HACK Portfolio, Deal Flow -->
+        <!-- HACK Portfolio, Deal Flow title -->
+        <div class="company-invest">
+            <div class="hakfnd-section-title">
+                <h2 class="py-3">Companies we invest in</h2>
+            </div>
+            <!-- HACK Portfolio, Deal Flow info w/ animated numbers -->
+            <p>Deal Flow: Hackers/Founders derives deal flow from ongoing community engagement with <span>300,000</span>
+                <br> entrepreneurs in <span>47</span> countries and <span>128</span> cities.</p>
+            <!-- HACK Portfolio, Deal Flow wrapper -->
+            <div class="company-invest-wrap">
+                <div class="row">
+                    <!-- HACK portfolio, Deal Flow, list item -->
+                    <div class="col-lg-4 col-md-6">
+                        <div class="company-invest-item">
+                            <!-- HACK portfolio, Deal Flow list item, icon -->
+                            <div class="hakfnd-icon">
+                                <img src="assets/images/icons/icon20.png" alt="Icon" width="40">
+                            </div>
+                            <!-- HACK portfolio, Deal Flow list item, info -->
+                            <div class="company-invest-info">
+                                <p>AI, EdTech, Machine Learning, Blockchain, IoT, B2B, SaaS and many more.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- HACK portfolio, Deal Flow list item -->
+                    <div class="col-lg-4 col-md-6">
+                        <div class="company-invest-item">
+                            <!-- HACK portfolio, Deal Flow, list item, icon -->
+                            <div class="hakfnd-icon">
+                                <img src="assets/images/icons/icon20.png" alt="Icon" width="40">
+                            </div>
+                            <!-- HACK portfolio, Deal Flow, list item, info -->
+                            <div class="company-invest-info">
+                                <p>Vetted by experienced angel investors and Limited partners.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- HACK portfolio, Deal Flow, list item -->
+                    <div class="col-lg-4 col-md-6">
+                        <div class="company-invest-item">
+                            <!-- HACK portfolio, Deal Flow, list item, icon -->
+                            <div class="hakfnd-icon">
+                                <img src="assets/images/icons/icon20.png" alt="Icon" width="40">
+                            </div>
+                            <!-- HACK portfolio, Deal Flow, list item, info -->
+                            <div class="company-invest-info">
+                                <p>Revenue generating companies with an existing product.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- HACK background image 4 -->
+    <div class="hakfnd-background background-style-two"></div>
+    <!-- HACK background image 5 -->
+    <div class="hakfnd-background background-style-three"></div>
+    <!-- HACK background image 6 -->
+    <div class="hakfnd-background background-style-four"></div>
+</section>

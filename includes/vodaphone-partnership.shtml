@@ -1,0 +1,42 @@
+<!--
+************************************************
+*
+*
+*           Hakfnd Vodafone Partnership
+*
+*
+************************************************
+ -->
+
+
+<section class="hakfnd-hack hakfnd-rectangle">
+    <!-- HACK partnership title -->
+    <div class="hakfnd-section-title">
+        <h2 class="py-5">Vodafone Partnership</h2>
+        <div class="container">
+            <div class="row">
+                <!-- HACK Partnership, Vodafone logo, info & animation -->
+                <div class="col-lg-3 col-md-auto order-last pb-5">
+                    <!-- HACK Partnership, Vodafone logo, animation -->
+                    <div class="hakfnd-image">
+                        <!-- HACK Partnership, Vodafone logo, image -->
+                        <img src="assets/images/partners/vodafone.png" alt="Vodafone" width="300">
+                    </div>
+                    <div class="hakfnd-image">
+                        <!-- HACK Partnership, Tomorrow Street logo, image -->
+                        <img src="assets/images/partners/tomorrowstreetlogo.png" alt="Tomorrow Street" width="200">
+                    </div>
+                </div>
+                <div class="col-lg-8 order-first">
+                <!-- HACK Vodafone Tomorrow Street Partnership, info -->
+                    <p class="pt-5">
+                      HACK Fund has partnered up with <a href="http://www.tomorrowstreet.co/">Vodafone Tomorrow Street</a>.
+                      HACK Fund will help source and invest in 5 to 15 companies a year Tomorrow Street will
+                      help these companies scale to $100M in revenue via Vodafone’s partnerships with 100+ telcos
+                      that service 1.2 Billion customers worldwide.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

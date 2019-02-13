@@ -1,0 +1,103 @@
+<!--
+************************************************************************************************************************
+*
+*
+*           Hakfnd Team
+*
+*
+************************************************************************************************************************
+ -->
+<section class="hakfnd-team hakfnd-rectangle" id="section-6">
+    <div class="container">
+        <!-- HACK Team title-->
+        <div class="hakfnd-section-title">
+            <h2 class="py-5">Team</h2>
+        </div>
+        <!-- HACK Team member-items, images, titles, position, info & social icons/links (Linked-In) -->
+        <div class="row justify-content-center">
+            <div class="col-lg-4">
+                <!-- HACK Team  member-items -->
+                <!-- HACK Team member-item, Jonathan Nelson -->
+                <div class="team-item hacfun-item">
+                    <!-- HACK Team image, Jonathan Nelson -->
+                    <div class="hakfnd-image">
+                        <img src="assets/images/team/member1.png" alt="Jonathan Nelson">
+                    </div>
+                    <!-- HACK Team member-item title, Jonathan Nelson -->
+                    <h3>Jonathan Nelson</h3>
+                    <!-- HACK Team member-item position, Jonathan Nelson -->
+                    <h4>Managing Director HACK Fund | CEO H/F</h4>
+                    <!-- HACK Team member-item info, Jonathan Nelson -->
+                    <p>
+                        Managing Director of HACK Fund, a liquid venture fund on the blockchain. CEO Hackers/Founders,
+                        a global tech founders co-operative. Jonathan helped achieve $600M portfolio market cap in the
+                        first 5 years. Former member of SEC Advisory Committee. Board member of Wilson Center for Public
+                        Policy, Latin America. Jonathan’s vision includes moving economies, reducing poverty, and
+                        improving life for tech founders around the world.
+                    </p>
+                    <!-- HACK Team member-items, social icon (Linked-In), Jonathan Nelson -->
+                    <div class="hakfnd-icon">
+                        <!-- HACK Team member-items, social link (Linked-In), Torrance Carroll -->
+                        <a target="_blank" href="https://www.linkedin.com/in/hackerfounder/">
+                            <i class="fa fa-linkedin" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- HACK Team member-item, Laura Nelson -->
+            <div class="col-lg-4">
+                <div class="team-item hacfun-item">
+                    <!-- HACK Team image, Laura Nelson -->
+                    <div class="hakfnd-image">
+                        <img src="assets/images/team/laura-large.jpg" alt="Laura Nelson" width="150" height="150">
+                    </div>
+                    <!-- HACK Team member-item title, Laura Nelson -->
+                    <h3>Laura Nelson</h3>
+                    <!-- HACK Team member-item position, Laura Nelson -->
+                    <h4>Managing Partner HACK Fund |​ CIO H/F</h4>
+                    <!-- HACK Team member-item info, Laura Nelson -->
+                    <p>
+                        Laura is Managing Partner of HACK Fund and Chief Innovation Officer of Hackers/Founders.
+                        She conceptualized the startup curriculum for portfolio companies, as well as numerous educational
+                        and networking events. Laura functions as H/F’s chief systems analyst. As part of R&D at 3Com,
+                        she knows what it is like to be part of world-changing technology. Her extensive experience in
+                        marketing and advertising means Laura’s insights are highly sought after.
+                    </p>
+                    <!-- HACK Team member-items, social icon (Linked-In), Laura Nelson -->
+                    <div class="hakfnd-icon">
+                        <!-- HACK Team member-items, social link (Linked-In), Torrance Carroll -->
+                        <a target="_blank" href="https://www.linkedin.com/in/laura-nelson-6772202a/">
+                            <i class="fa fa-linkedin" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- HACK Team member-item, Torrance Carroll -->
+            <div class="col-lg-4">
+                <div class="team-item hacfun-item">
+                    <!-- HACK Team image, Torrance Carroll -->
+                    <div class="hakfnd-image">
+                        <img src="assets/images/team/torrance-circle.png" alt="Torrance Carroll">
+                    </div>
+                    <!-- HACK Team, title, Torrance Carroll -->
+                    <h3>Torrance Carroll</h3>
+                    <!-- HACK Team member-item info, Torrance Carroll -->
+                    <h4>Partner, HACK Fund |​ COO H/F</h4>
+                    <!-- HACK Team, info, Torrance Carroll -->
+                    <p>
+                        Torrance catalyzes fund growth through continual engagement with portfolio companies, investors,
+                        and community members, As Chief Operations Officer for Hackers/Founders, he manages both internal
+                        processes and staff to allow the company to run efficiently.
+                    </p>
+                    <!-- HACK Team, social icon (Linked-In), Torrance Carroll -->
+                    <div class="hakfnd-icon">
+                        <!-- HACK Team, social link (Linked-In), Torrance Carroll -->
+                        <a target="_blank" href="https://www.linkedin.com/in/torrancecarroll/">
+                            <i class="fa fa-linkedin" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

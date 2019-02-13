@@ -1,0 +1,116 @@
+<!--
+**********************************************************
+*
+*
+*           Hakfnd Hack, What Makes HACKfund Different
+*
+*
+**********************************************************
+ -->
+ -->
+<section class="hakfnd-hack hakfnd-rectangle" id="section-2">
+    <div class="container">
+        <!-- HACK the difference title -->
+        <h2 class="hakfnd-section-title">What Makes HACK Fund different?</h2>
+        <!-- spacer for formating -->
+        <div class="hack-item hack-spacer-one">
+            <!-- HACK the difference list-items, animation, images & info -->
+            <!-- HACK the difference list-item -->
+            <div class="row align-items-center">
+                <div class="col-md-7">
+                    <!-- HACK the difference list-item, animation -->
+                    <div class="hakfnd-image">
+                        <!-- HACK the difference list-item, image -->
+                        <img src="assets/images/icons/icon11.png" alt="Hack" width="430">
+                    </div>
+                </div>
+                <!-- HACK the difference Founders First list-item, info -->
+                <div class="col-md-5">
+                    <div class="hack-info">
+                        <h2>1. Founders First.</h2>
+                        <p>
+                            Before H/F created HACK Fund, it started as a small group of founders that shared a
+                            passion for technology and startups. This community became an important place for founders
+                            to connect, learn, grow and collaborate with each other.  Today, H/F community has grown
+                            from a handful in Silicon Valley to about 300,000 people in 48 countries.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- HACK The Difference, Community to Co-op list-item -->
+        <div class="hack-item hack-white-color-item">
+                <div class="row align-items-center">
+                    <div class="col-md-7 textright order-md-2">
+                        <!-- HACK The Difference, Community to Co-op list-item, animation -->
+                        <div class="hakfnd-image">
+                            <!-- HACK The Difference, Community to Co-op list-item, image -->
+                            <img src="assets/images/icons/icon12.png" alt="Hack" width="430">
+                        </div>
+                    </div>
+                    <!-- HACK The Difference, Community to Co-op list-item, info -->
+                    <div class="col-md-5 order-md-1">
+                        <div class="hack-info">
+                            <h2>2. Community to Co-op.</h2>
+                            <p class="px-5">
+                                H/F launched The Co-op, a growth program for early-stage companies, that leverages H/F’s extensive network. The Co-op provides connections, support and services in return for equity, so that these startups can expand globally. In the spirit of H/F’s community roots, founders literally have a stake in each other’s success, since they receive a piece of equity from each of their fellow companies.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>    
+        <!-- HACK The Difference, Venture Capita list-item -->
+        <div class="hack-item hack-spacer-two">
+                <div class="row align-items-center">
+                    <div class="col-md-7">
+                        <!-- HACK The Difference, Venture Capital list-item, animation -->
+                        <div class="hakfnd-image">
+                            <!-- HACK The Difference, Venture Capital list-item, image -->
+                            <img src="assets/images/icons/icon13.png" alt="Hack" width="430">
+                        </div>
+                    </div>
+                    <!-- HACK The Difference, Venture Capital list-item, info -->
+                    <div class="col-md-5">
+                        <div class="hack-info">
+                            <h2>3. Venture Capital</h2>
+                            <p class="px-5">
+                                H/F created four funds using equity from its Co-op portfolio startups, and sold them to investors.
+                                Funds 1 through 4 annualized 30% IRR for 5 years running, and boasts 7 exits, to
+                                companies like Facebook and Cisco.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>    
+        <!-- HACK The Difference, Now HACK list-item -->
+        <div class="hack-item hack-spacer-two">
+                <div class="row align-items-center">
+                    <div class="col-md-7 textright order-md-2">
+                        <!-- HACK The Difference, Now HACK list-item, animation -->
+                        <div class="hakfnd-image">
+                            <!-- HACK The Difference, Now HACK list-item, image -->
+                            <img src="assets/images/icons/icon14.png" alt="Hack" width="430">
+                        </div>
+                    </div>
+                    <!-- HACK The Difference, Now HACK list-item, info -->
+                    <div class="col-md-5 order-md-1">
+                        <div class="hack-info">
+                            <h2>4. Now HACK Fund.</h2>
+                            <p class="px-5">HACK Fund combines H/F’s track record of startup fund successes with the versatility
+                               of the Ethereum blockchain. The result is the democratization of venture investing
+                               worldwide, because wherever the blockchain reaches, so does HACK Fund. Investors have
+                               liquidity, because they have the freedom to buy and sell shares through online exchanges
+                               whenever they choose. The use of the blockchain erases borders, which means more
+                               startups can be funded and exit through their own Public Offering.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    <!-- HACK background image, 2 -->
+    <div class="hakfnd-background background-style-two"></div>
+    <!-- HACK background image, 3 -->
+    <div class="hakfnd-background background-style-three"></div>
+</section>
+

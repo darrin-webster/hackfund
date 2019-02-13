@@ -290,6 +290,7 @@
   }
   .hakfnd-btn-wrap {
     padding-top: 10px;
+    margin-left: 25px;
   }
   .forbes {
     padding-top: 20px;
@@ -535,6 +536,9 @@
   }
   .footer-social .hakfnd-social {
     font-size: 20px;
+  }
+  .community {
+    margin-top: 60px;
   }
 }
 

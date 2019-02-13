@@ -1,0 +1,85 @@
+<!--
+******************************************************
+*
+*
+*           Hakfnd Investors
+*
+*
+******************************************************
+ -->
+<section class="hakfnd-investors" id="section-3">
+    <!-- HACK Investors container -->
+    <div class="container">
+        <!-- HACK Investors title -->
+        <div class="hakfnd-section-title">
+            <h2 class="pt-5">For Investors</h2>
+            <p>Investors have the advantages of venture capital combined with innovative use of Public Listing.</p>
+        </div>
+        <!-- HACK Investor Advantages wrapper -->
+        <div class="investors-wrap">
+            <!-- HACK Investor Advantages list-items, titles, icons, animation & info -->
+            <div class="row justify-content-center">
+            <!-- HACK Investor Advantages, Liquidity list-item-->
+                <div class="col-md-6">
+                    <div class="investors-item">
+                        <!-- HACK Investor Advantages, Liquidity, animation -->
+                        <div class="hakfnd-icon">
+                            <!-- HACK Investor Advantages, Liquidity, icon -->
+                            <img src="assets/images/icons/icon19.png" alt="Liquidity" width="70">
+                        </div>
+                        <!-- HACK Investor Advantages, Liquidity, title -->
+                        <h3>Liquidity</h3>
+                        <!-- HACK Investor Advantages, Liquidity, info -->
+                        <p class="px-5">HACK provides investors with liquidity. Investors can buy,
+                            sell, and trade HACK Fund shares through online exchanges at any time.
+                        </p>
+                    </div>
+                </div> 
+                <!-- HACK Investor Advantages, Startups list-item-->
+                <div class="col-md-6">
+                    <div class="investors-item">
+                    <!-- HACK Investor Advantages, Startups, animation -->
+                        <div class="hakfnd-icon">
+                        <!-- HACK Investor Advantages, Startups, icon -->
+                            <img src="assets/images/icons/icon17.png" alt="Access to the Best Startups" width="70">
+                        </div>
+                         <!-- HACK Investor Advantages, Startups, title -->
+                         <h3>Access to the Best Startups</h3>
+                         <!-- HACK Investor Advantages, Startups, info -->
+                         <p class="px-5">Invest in the best startups worldwide without the challenges that can come with reaching them.
+                         </p>
+                    </div>
+                </div>
+                <!-- HACK Investor Advantages, Diversified list-item-->
+                <div class="col-md-6">
+                    <div class="investors-item">
+                        <!-- HACK Investor Advantages, Diversified, animation -->
+                        <div class="hakfnd-icon">
+                            <!-- HACK Investor Advantages, Diversified, icon -->
+                            <img src="assets/images/icons/icon16.png" alt="Diversified" width="70">
+                        </div>
+                        <!-- HACK Investor Advantages, Diversified, title -->
+                        <h3>Diversified</h3>
+                        <!-- HACK Investor Advantages, Diversified, info -->
+                        <p class="px-5">Invest like a Limited Partner. HACK Fund offers diversified exposure to technology startups.
+                        </p>
+                    </div>
+                </div>
+                <!-- HACK Investor Advantages, Returns list-item -->
+                <div class="col-md-6">
+                    <div class="investors-item">
+                        <!-- HACK Investor Advantages, Returns, animation -->
+                        <div class="hakfnd-icon">
+                            <!-- HACK Investor Advantages, Returns, icon -->
+                            <img src="assets/images/icons/icon15.png" alt="Returns" width="70">
+                        </div>
+                        <!-- HACK Investor Advantages, Returns, title -->
+                        <h3>Returns</h3>
+                        <!-- HACK Investor Advantages, Returns, info -->
+                        <p class="px-5">All portfolio exits are funnelled back into HACK Fund, increasing its value for investors.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

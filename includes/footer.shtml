@@ -1,0 +1,64 @@
+<!--
+************************************************************************************************************************
+*
+*
+*           Hakfnd Testimonials
+*
+*
+************************************************************************************************************************
+ -->
+<section class="hakfnd-testimonial">
+    <div class="container">
+        <!-- HACK Testimonials title -->
+        <div class="hakfnd-section-title">
+            <h2 class="py-5">Testimonials</h2>
+            <!-- HACK Testimonials-logos, spacers, images & info -->
+            <div class="row justify-content-center">
+                <!-- HACK Testimonial-logo, Vodaphone -->
+                <div class="col-lg-4  col-md-8  pb-5">
+                    <div class="hakfnd-logo logo-spacer">
+                        <!-- HACK Testimonial, Vodaphone image -->
+                        <img src="assets/images/partners/vodafone.png" alt="Vodaphone" width="430">
+                    </div>
+                    <!-- HACK Testimonial, Vodaphone info -->
+                    <p>
+                         <i class="fa fa-quote-left"></i>
+                            Vodafone Tomorrow Street is delighted that our global relationship with Hackers
+                            and Founders will provide our growing portfolio of startups access to the highly
+                            innovative Hack Fund vehicle for their potential future funding requirements.
+                         <i class="fa fa-quote-right"></i>
+                    </p>
+                </div>
+                <!-- HACK Testimonial-logo, Tech Crunch -->
+                <div class="col-lg-4  col-md-8  pb-5">
+                    <div class="hakfnd-logo logo-spacer">
+                        <!-- HACK Testimonial, Tech Crunch image -->
+                        <img src="assets/images/press/techcrunch.png" alt="Tech Crunch" width="430">
+                    </div>
+                    <!-- HACK Testimonial, Tech Crunch info -->
+                    <p>
+                        <i class="fa fa-quote-left"></i>
+                            The idea behind Hack Fund is quite interesting. In most cases investing in a company leads to up to ten years of waiting for a liquidity event. However, with blockchain-based stock certificates investors can buy shares that can be bought and sold instantly while company performance drives the value up or down. In short, startups become liquid in an instant...
+                        <i class="fa fa-quote-right"></i>
+                    </p>
+                </div>
+
+                <!-- HACK Testimonial-logo, WSJ -->
+                <div class="col-lg-4 col-md-8 pb-5">
+                    <div class="hakfnd-logo logo-spacer">
+                        <!-- HACK Testimonial, WSJ image -->
+                        <img src="assets/images/resized-logos/The-Wall-Street-Journal_logo_250x60px.png" alt="Wall Street Journal" width="400" height="120">
+                    </div>
+                    <!-- HACK Testimonial, WSJ info -->
+                    <p>
+                         <i class="fa fa-quote-left"></i>
+                            Unlike typical venture funds, HACK Fund will allow quick liquidity for investors —
+                            a new type of investing in the startup world. It could eventually event affect how
+                            startups build their companies...
+                         <i class="fa fa-quote-right"></i>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

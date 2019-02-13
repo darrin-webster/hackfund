@@ -1,0 +1,162 @@
+
+<!--
+************************************************************************************************************************
+*
+*
+*           Hakfnd Advisers
+*
+*
+************************************************************************************************************************
+ -->
+<section class="hakfnd-advisors hakfnd-rectangle">
+    <div class="container">
+        <!-- HACK Adviser adviser-items, images, titles, positions, info & social icons/links (Linked-In) -->
+        <!-- HACK Adviser title -->
+        <div class="hakfnd-section-title">
+            <h2>Advisors</h2>
+        </div>
+        <div class="row justify-content-center">
+            <!-- HACK Adviser, adviser-item, Martin Perminas -->
+            <div class="col-lg-6">
+                <div class="advisor-item">
+                    <!-- HACK Adviser, image, Martin Perminas -->
+                    <div class="hakfnd-image">
+                        <img src="assets/images/advisors/martin.png" alt="Martin Perminas">
+                    </div>
+                    <!-- HACK Adviser, name, Martin Perminas -->
+                    <h2>Martin Perminas</h2>
+                    <!-- HACK Adviser, position, Martin Perminas -->
+                    <h3>Managing Partner | Tomorrow Street North America</h3>
+                    <!-- HACK Adviser, info, Martin Perminas -->
+                    <p>
+                        Martin has been key to building the Tomorrow Street (TS) USA deal flow network that
+                        includes VCs, incubators, accelerators and professional services providers. TS is
+                        designed to be one of the most powerful growth engines available for business ready
+                        startups. As a joint venture founded by Vodafone and the Luxembourg Government, it
+                        provides startups a base from which to access the multiple markets, and the expertise of
+                        its founders.
+                    </p>
+                    <!-- HACK Adviser, social icon (Linked-In), Martin Perminas -->
+                    <div class="hakfnd-icon">
+                        <!-- HACK Adviser, social link (Linked-In), Martin Perminas -->
+                        <a target="_blank" href="https://www.linkedin.com/in/martin-perminas-75985114/">
+                            <!-- Linked-In Icon -->
+                            <i class="fa fa-linkedin" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <!-- HACK Adviser, adviser-item, Dave Shin -->
+            <div class="col-lg-6">
+                <div class="advisor-item">
+                    <!-- HACK Adviser, image, Dave Shin -->
+                    <div class="hakfnd-image">
+                        <img src="assets/images/advisors/Dave-Shin.jpg" alt="Martin Perminas">
+                    </div>
+                    <!-- HACK Adviser, name, Dave Shin -->
+                    <h2>Dave Shin</h2>
+                    <!-- HACK Adviser, position, Dave Shin -->
+                    <h3>Head of Global Equity Derivatives Sales | TD Bank Singapore</h3>
+                    <!-- HACK Adviser, info, Dave Shin -->
+                    <p>
+                       David Shin is an Entrepreneur and Banker who has been involved in several startups in SG and HK and an outspoken advocate of FinTech in Asia.  David is also a community builder who has helped set up non profit organisations in HK and SG to ensure the proper engagement with local/regional entities and officials as it relates to Digital Currencies, Blockchain and more broadly FinTech.  During the day, David works for TD Bank as their Asia Head of Global Equity Derivatives Sales.  David is considered an early adopter of digital currencies which has led him to appear on regional and global media outlets like CNN, CNBC, Bloomberg, NY Times, Swiss TV and the Economist.
+                    </p>
+                    <!-- HACK Adviser, social icon (Linked-In), Dave Shin -->
+                    <div class="hakfnd-icon">
+                        <!-- HACK Adviser, social link (Linked-In), Dave Shin -->
+                        <a target="_blank" href="https://www.linkedin.com/in/david-shin-35562b2/">
+                            <!-- Linked-In Icon -->
+                            <i class="fa fa-linkedin" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>    
+            <!-- HACK Adviser, adviser-item, Annemarie Tierney -->
+            <div class="col-lg-6">
+                <div class="advisor-item">
+                    <!-- HACK Adviser, image, Annemarie Tierney -->
+                    <div class="hakfnd-image">
+                        <img src="assets/images/advisors/advisor2.jpg" alt="Annemarie Tierney">
+                    </div>
+                    <!-- HACK Adviser, name, Annemarie Tierney -->
+                    <h2>Annemarie Tierney</h2>
+                    <!-- HACK Adviser, position, Annemarie Tierney -->
+                    <h3>Former VP of Strategy and New Markets | NASDAQ</h3>
+                    <!-- HACK Adviser, info, Annemarie Tierney -->
+                    <p>
+                        One of the world's top experts in securities law as it relates to secondary liquidity, capital markets and problems
+                        faced by small businesses in capital formation.  AnneMarie’s expertise with related legal will be invaluable to HACK
+                        Fund’s efforts going forward.
+                    </p>
+                    <!-- HACK Adviser, social icon (Linked-In), Annemarie Tierney -->
+                    <div class="hakfnd-icon">
+                        <!-- HACK Adviser, social link (Linked-In), Annemarie Tierney -->
+                        <a target="_blank" href="https://www.linkedin.com/in/annemarie-tierney-b63a608/">
+                            <!-- Linked-In Icon -->
+                            <i class="fa fa-linkedin" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+          <!-- HACK Adviser, adviser-item, Mark Lopes -->
+            <div class="col-lg-6">
+                <div class="advisor-item">
+                    <!-- HACK Adviser, image, Mark Lopes -->
+                    <div class="hakfnd-image">
+                        <img src="assets/images/advisors/mark_lopes.png" alt="Mark Lopes">
+                    </div>
+                    <!-- HACK Adviser, name, Mark Lopes -->
+                    <h2>Mark Lopes</h2>
+                    <!-- HACK Adviser, position, Mark Lopes -->
+                    <h3>United States Executive Director | Inter-American Development Bank</h3>
+                    <!-- HACK Adviser, info, Mark Lopes -->
+                    <p>
+                        Appointed by President Barack Obama and confirmed by the United States Senate in 2014. Served as U.S. government
+                        affairs lead directly with senators and members of congress and senior officials from the White House and key executive
+                        branch agencies.
+                    </p>
+                    <!-- HACK Adviser, social icon (Linked-In), Mark Lopes -->
+                    <div class="hakfnd-icon">
+                        <!-- HACK Adviser, social link (Linked-In), Mark Lopes -->
+                        <a target="_blank" href="https://www.linkedin.com/in/lopesmark/">
+                            <!-- Linked-In Icon -->
+                            <i class="fa fa-linkedin" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- HACK Adviser, adviser-item, Amilcar Chavarria -->
+            <div class="col-lg-6">
+                <div class="advisor-item">
+                    <div class="hakfnd-image">
+                        <!-- HACK Adviser, image, Amilcar Chavarria -->
+                        <img src="assets/images/advisors/amilcar_chavarria.jpg" alt="Amilcar Chavarria">
+                    </div>
+                    <!-- HACK Adviser, name, Amilcar Chavarria -->
+                    <h2>Amilcar Chavarria</h2>
+                    <!-- HACK Adviser, position, Amilcar Chavarria -->
+                    <h3>FinTech & Blockchain Entrepreneur</h3>
+                    <!-- HACK Adviser, info, Amilcar Chavarria -->
+                    <p>
+                        Serial FinTech Entrepreneur with over a decade of investment experience gained at top banks and asset managers like
+                        Goldman Sachs and BlackRock. In the last six years, Amilcar has led the creation of FinTech businesses in Digital Wealth
+                        Management, Crowdfunding and Education Technology (EdTech). Over the last three years, Amilcar has worked with some of
+                        the largest Financial Institutions and Universities in China, Latin America and the Middle East.
+                    </p>
+                    <!-- HACK Adviser, social icon (Linked-In), Amilcar Chavarria -->
+                    <div class="hakfnd-icon">
+                        <!-- HACK Adviser, social link (Linked-In), Amilcar Chavarria -->
+                        <a target="_blank" href="https://www.linkedin.com/in/bamilcar/">
+                            <!-- Linked-In Icon -->
+                            <i class="fa fa-linkedin" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
