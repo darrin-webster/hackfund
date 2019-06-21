@@ -1,0 +1,1512 @@
+@charset "utf-8";
+/* Hack Fund Common CSS */
+body {
+    overflow-x: hidden;
+    background: #ffffff;
+    /*color: #2e364a;*/
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    text-rendering: auto;
+    position: static !important;
+    -webkit-font-smoothing: antialiased;
+    -ms-font-smoothing: antialiased;
+}
+
+*,
+*:focus {
+    outline: none;
+}
+
+a {
+    color: #2e364a;
+    -webkit-transition: all ease .4s;
+    -ms-transition: all ease .4s;
+    transition: all ease .4s;
+}
+
+a:focus {
+    outline: none;
+    outline-offset: 0;
+}
+
+a:hover,
+a:focus {
+    color: #eb6969;
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+iframe {
+    display: inline-block;
+    vertical-align: middle;
+    width: 100%;
+    border: none;
+}
+
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4,
+h5,
+.h5,
+h6,
+.h6 {
+    padding-bottom: 10px;
+    margin: 0;
+    font-weight: 700;
+}
+
+p {
+    padding-bottom: 10px;
+    margin-bottom: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 26px;
+}
+
+video {
+    display: block;
+    width: auto;
+    min-width: 100%;
+    height: auto;
+    min-height: 100%;
+    background-color: #f8f8f8;
+}
+
+audio,
+canvas,
+progress,
+video {
+    vertical-align: middle;
+}
+
+button,
+button:focus {
+    outline: none;
+    outline-offset: 0;
+}
+
+b,
+strong {
+    font-weight: bold;
+}
+
+li {
+    padding: 10px 0 0 15px;
+    /*margin: 20px;*/
+}
+
+::-webkit-input-placeholder {
+    color: #9d9d9d;
+    opacity: 1;
+}
+
+::-moz-placeholder {
+    color: #9d9d9d;
+    opacity: 1;
+}
+
+:-ms-input-placeholder {
+    color: #9d9d9d;
+    opacity: 1;
+}
+
+:-moz-placeholder {
+    color: #9d9d9d;
+    opacity: 1;
+}
+
+::selection {
+    background: #ed6a6a;
+    color: #ffffff;
+}
+
+::-webkit-selection {
+    background: #ed6a6a;
+    color: #ffffff;
+}
+
+::-moz-selection {
+    background: #ed6a6a;
+    color: #ffffff;
+}
+
+::-o-selection {
+    background: #ed6a6a;
+    color: #ffffff;
+}
+
+::-ms-selection {
+    background: #ed6a6a;
+    color: #ffffff;
+}
+
+.hakfnd-table-wrap {
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+
+.hakfnd-align-wrap {
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+    height: 100%;
+}
+
+.textright {
+    text-align: right;
+}
+
+.textcenter {
+    text-align: center;
+}
+
+.goog-te-gadget span {
+    display: none;
+}
+
+.languages .goog-te-gadget {
+    font-size: 0;
+    position: relative;
+}
+
+.languages .goog-te-gadget:after {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    border-top: 9px solid #30374c;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    content: "";
+    -webkit-transition: all ease .4s;
+    -ms-transition: all ease .4s;
+    transition: all ease .4s;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    z-index: 1;
+}
+
+/* 
+Hakfnd Elements CSS CSS
+*/
+/* Hakfnd Buttons CSS CSS */
+.hakfnd-btn {
+    display: inline-block;
+    vertical-align: middle;
+    min-width: 180px;
+    padding: 14px 25px;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ed6a6a+50,c85859+100 */
+    background: rgb(237, 106, 106); /* Old browsers */
+    background: -moz-linear-gradient(left, rgba(237, 106, 106, 1) 50%, rgba(200, 88, 89, 1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, rgba(237, 106, 106, 1) 50%, rgba(200, 88, 89, 1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, rgba(237, 106, 106, 1) 50%, rgba(200, 88, 89, 1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ed6a6a', endColorstr='#c85859', GradientType=1); /* IE6-9 */
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    text-align: center;
+    position: relative;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    -webkit-transition: all ease .4s;
+    -ms-transition: all ease .4s;
+    transition: all ease .4s;
+    -webkit-border-radius: 30px;
+    -ms-border-radius: 30px;
+    border-radius: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.08);
+}
+
+/*HACK*/
+.hakfnd-btn:hover, .hakfnd-btn:focus {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#cb5a5a+0,ed6a6a+50 */
+    background: rgb(203, 90, 90); /* Old browsers */
+    background: -moz-linear-gradient(left, rgba(203, 90, 90, 1) 0%, rgba(237, 106, 106, 1) 50%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, rgba(203, 90, 90, 1) 0%, rgba(237, 106, 106, 1) 50%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, rgba(203, 90, 90, 1) 0%, rgba(237, 106, 106, 1) 50%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#cb5a5a', endColorstr='#ed6a6a', GradientType=1); /* IE6-9 */
+    color: #ffffff;
+}
+
+.hakfnd-small-btn {
+    min-width: 10px;
+    padding: 8px 30px;
+    font-size: 15px;
+}
+
+.hakfnd-btn-wrap {
+    padding-top: 15px;
+
+}
+
+.hakfnd-btn-2 {
+    display: inline-block;
+    vertical-align: middle;
+    min-width: 180px;
+    padding: 14px 25px;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ed6a6a+50,c85859+100 */
+    background: rgb(237, 106, 106); /* Old browsers */
+    background: -moz-linear-gradient(left, rgba(237, 106, 106, 1) 50%, rgba(200, 88, 89, 1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, rgba(237, 106, 106, 1) 50%, rgba(200, 88, 89, 1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, rgba(237, 106, 106, 1) 50%, rgba(200, 88, 89, 1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ed6a6a', endColorstr='#c85859', GradientType=1); /* IE6-9 */
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    text-align: center;
+    position: relative;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    -webkit-transition: all ease .4s;
+    -ms-transition: all ease .4s;
+    transition: all ease .4s;
+    -webkit-border-radius: 30px;
+    -ms-border-radius: 30px;
+    border-radius: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.08);
+}
+
+.hakfnd-btn-2:hover,
+.hakfnd-btn-2:focus {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#cb5a5a+0,ed6a6a+50 */
+    background: rgb(203, 90, 90); /* Old browsers */
+    background: -moz-linear-gradient(left, rgba(203, 90, 90, 1) 0%, rgba(237, 106, 106, 1) 50%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, rgba(203, 90, 90, 1) 0%, rgba(237, 106, 106, 1) 50%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, rgba(203, 90, 90, 1) 0%, rgba(237, 106, 106, 1) 50%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#cb5a5a', endColorstr='#ed6a6a', GradientType=1); /* IE6-9 */
+    color: #ffffff;
+}
+
+.hakfnd-btn-wrap-2 {
+    padding-top: 15px;
+    padding-left: 2em;
+}
+
+.btn-wrapper {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 2em;
+}
+
+/* 
+Hakfnd Form Fields CSS
+*/
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="tel"],
+input[type="search"],
+input[type="date"],
+input[type="time"],
+input[type="datetime-local"],
+input[type="event-month"],
+input[type="url"],
+input[type="number"],
+textarea,
+select,
+.form-control {
+    vertical-align: middle;
+    width: 100%;
+    height: 50px;
+    padding: 10px 20px;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 1.42857143;
+    border: 1px solid #ebebeb;
+    outline: none;
+    -webkit-border-radius: 0;
+    -ms-border-radius: 0;
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    -ms-box-shadow: none;
+    box-shadow: none;
+    -webkit-appearance: none;
+    -ms-appearance: none;
+    -o-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    -webkit-transition: all ease .3s;
+    -ms-transition: all ease .3s;
+    transition: all ease .3s;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="tel"]:focus,
+input[type="search"]:focus,
+input[type="date"]:focus,
+input[type="time"]:focus,
+input[type="datetime-local"]:focus,
+input[type="event-month"]:focus,
+input[type="url"]:focus,
+input[type="number"]:focus,
+textarea:focus,
+select:focus,
+.form-control:focus {
+    border-color: #cbcbcb;
+}
+
+select {
+    padding: 10px 40px 10px 0;
+    background-color: #ffffff;
+    background-image: url(../images/icons/icon2.png);
+    background-position: 100% 50%;
+    background-repeat: no-repeat;
+    background-size: 11px auto;
+    color: #555555;
+}
+
+
+
+/* Hakfnd Back Top */
+/*.hakfnd-back-top {*/
+/*    position: fixed;*/
+/*    bottom: 15px;*/
+/*    right: -50px;*/
+/*    -webkit-transition: all ease .3s;*/
+/*    -ms-transition: all ease .3s;*/
+/*    transition: all ease .3s;*/
+/*    z-index: 3;*/
+/*}*/
+
+/*.hakfnd-back-top.active {*/
+/*    right: 90px;*/
+/*}*/
+
+
+/*.hakfnd-back-top a {*/
+/*    display: block;*/
+/*    width: 40px;*/
+/*    height: 40px;*/
+/*    padding: 6px;*/
+/*    font-size: 18px;*/
+/*    text-align: center;*/
+/*    background: #ed6a6a;*/
+/*    color: #ffffff;*/
+/*    -webkit-border-radius: 3px;*/
+/*    -ms-border-radius: 3px;*/
+/*    border-radius: 3px;*/
+/*}*/
+
+/*.hakfnd-back-top a:hover, .hakfnd-back-top a:focus {*/
+/*    background: #2e364a;*/
+/*    -webkit-border-radius: 100%;*/
+/*    -ms-border-radius: 100%;*/
+/*    border-radius: 100%;*/
+/*}*/
+
+/*!* */
+/*Hakfnd Header CSS*/
+/**!*/
+/*.sticky-wrapper:before,*/
+/*.sticky-wrapper:after {*/
+/*    display: table;*/
+/*    content: "";*/
+/*}*/
+
+.sticky-wrapper:after {
+    clear: both;
+}
+
+.is-sticky,
+.hakfnd-header {
+    background: #ffffff;
+    -webkit-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+    -ms-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+}
+
+.hakfnd-header {
+    padding: 20px 0;
+    background: #ffffff;
+    border-bottom: 1px solid rgba(112, 155, 231, 0.35);
+    -webkit-transition: background ease .3s, box-shadow ease .3s;
+    -ms-transition: background ease .3s, box-shadow ease .3s;
+    transition: background ease .3s, box-shadow ease .3s;
+}
+
+.header-right {
+    position: relative;
+    z-index: 3;
+}
+
+.header-right.open, .header-right.open .languages select {
+    color: #ffffff;
+}
+
+.header-right.open .languages .goog-te-gadget:after {
+    border-top-color: #ffffff;
+}
+
+.top-btn {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.languages {
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 40px;
+}
+
+.languages select {
+    width: 130px;
+    padding: 0 10px 0 0;
+    border: none;
+    height: auto;
+    background: none;
+    color: #30374c;
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+}
+
+.skiptranslate .goog-te-banner-frame {
+    display: none;
+}
+
+.hakfnd-toggle {
+    display: inline-block;
+    vertical-align: middle;
+    width: 25px;
+    height: 20px;
+    margin-left: 40px;
+}
+
+.hakfnd-toggle .toggle-separator {
+    display: block;
+    width: 100%;
+    height: 4px;
+    margin-top: 8px;
+    background: #2e364a;
+    position: relative;
+    -webkit-transition: all ease .3s;
+    -ms-transition: all ease .3s;
+    transition: all ease .3s;
+}
+
+
+.hakfnd-toggle .toggle-separator:before,
+.hakfnd-toggle .toggle-separator:after {
+    position: absolute;
+    top: -8px;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background: #2e364a;
+    content: "";
+    -webkit-transition: all ease .3s;
+    -ms-transition: all ease .3s;
+    transition: all ease .3s;
+    z-index: 1;
+}
+
+.hakfnd-toggle .toggle-separator:after {
+    top: 8px;
+}
+
+.hakfnd-toggle.active .toggle-separator {
+    background: none;
+}
+
+.hakfnd-toggle.active .toggle-separator:before {
+    background: #ffffff;
+    -webkit-transform: translateY(8px) rotateZ(-45deg);
+    -ms-transform: translateY(8px) rotateZ(-45deg);
+    transform: translateY(8px) rotateZ(-45deg)
+}
+
+.hakfnd-toggle.active .toggle-separator:after {
+    background: #ffffff;
+    -webkit-transform: translateY(-8px) rotateZ(45deg);
+    -ms-transform: translateY(-8px) rotateZ(45deg);
+    transform: translateY(-8px) rotateZ(45deg)
+}
+
+.hakfnd-navigation {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 50%;
+    height: 100%;
+    background: #2e364a;
+    padding: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    overflow-y: auto;
+    -webkit-transition: all ease .4s;
+    -ms-transition: all ease .4s;
+    transition: all ease .4s;
+    -webkit-transform: translateX(100%);
+    -ms-transform: translateX(100%);
+    transform: translateX(100%);
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+    z-index: 2;
+}
+
+.hakfnd-navigation.open {
+    -webkit-transform: translateX(0%);
+    -ms-transform: translateX(0%);
+    transform: translateX(0%);
+}
+
+.hakfnd-navigation ul {
+    max-width: 456px;
+    padding: 0;
+    margin: 0;
+    text-align: right;
+    list-style: none;
+}
+
+.hakfnd-navigation ul li a.mPS2id-highlight,
+.hakfnd-navigation ul li a.mPS2id-highlight:hover,
+.hakfnd-navigation ul li a.mPS2id-highlight:focus {
+    font-weight: 700;
+}
+
+.hakfnd-navigation ul li a {
+    display: inline-block;
+    padding: 10px 20px 10px 0;
+    color: #ffffff;
+    position: relative;
+}
+
+.hakfnd-navigation ul li a.mPS2id-highlight:after {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    border-top: 6px solid transparent;
+    border-bottom: 6px solid transparent;
+    border-right: 9px solid #ff6967;
+    content: "";
+    -webkit-transition: all ease .4s;
+    -ms-transition: all ease .4s;
+    transition: all ease .4s;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    z-index: 1;
+}
+
+.hakfnd-navigation ul li a:hover,
+.hakfnd-navigation ul li a:focus {
+    color: #ed6a6a;
+}
+
+.hakfnd-navigation .hakfnd-toggle {
+    display: none;
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    z-index: 1;
+}
+
+.mobile-menu-item {
+    display: none;
+}
+
+.brd-banner .container {
+    position: relative;
+}
+
+/* Hakfnd Banner CSS */
+.hakfnd-banner {
+    padding: 60px 0;
+    position: relative;
+}
+
+.hakfnd-banner .container {
+    position: relative;
+}
+
+.hakfnd-banner .hakfnd-social {
+    position: fixed;
+    top: 200px;
+    right: 0;
+    width: 45px;
+    font-size: 23px;
+    z-index: 1;
+}
+
+.hakfnd-banner .hakfnd-social .fa-facebook {
+    font-size: 33px;
+}
+
+.hakfnd-banner .hakfnd-social .fa-twitter,
+.hakfnd-banner .hakfnd-social .fa-youtube-play,
+.hakfnd-banner .hakfnd-social .fa-linkedin {
+    font-size: 26px;
+}
+
+.hakfnd-banner .hakfnd-social a {
+    margin-bottom: 20px;
+    color: #ff6967; 
+}
+
+.hakfnd-banner .hakfnd-social a:last-child {
+    margin-bottom: 0;
+}
+
+.hakfnd-social a {
+    display: inline-block;
+}
+
+.hakfnd-social a:hover,
+.hakfnd-social a:focus {
+    color: #ffffff;
+}
+
+.banner-info {
+    padding-right: 85px;
+}
+
+.banner-info .hakfnd-image {
+    padding-bottom: 15px;
+}
+
+.banner-info h1 {
+    padding-bottom: 10px;
+    font-size: 34px;
+    font-weight: 800;
+    line-height: 44px;
+    letter-spacing: -0.3px;
+}
+
+.as-seen-in {
+    padding-top: 20px;
+}
+
+.as-seen-in h4 {
+    padding-bottom: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+
+.as-seen-in .hakfnd-icon img, .as-seen-in-2 .hakfnd-icon img {
+    width: 150px;
+}
+
+.more-press {
+    padding-top: 30px;
+}
+
+.more-press h4 {
+    padding-bottom: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.banner-right-img .hakfnd-image {
+    position: relative;
+    right: 110px;
+    z-index: 1;
+}
+
+.hakfnd-background {
+    position: absolute;
+    top: -300px;
+    right: 0;
+    width: 50.75%;
+    height: 1196px;
+    background-image: url(../images/background-images/background3.png);
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+}
+
+.background-style-two {
+    top: 215px;
+    left: 0;
+    right: auto;
+    width: 61%;
+    background-image: url(../images/background-images/background4.png);
+    background-position: right center;
+}
+
+.background-style-three {
+    top: auto;
+    bottom: -320px;
+}
+
+.background-style-four {
+    top: 1850px;
+    left: 0;
+    right: auto;
+    width: 61%;
+    background-image: url(../images/background-images/background4.png);
+    background-position: right center;
+}
+
+.background-style-five {
+    top: 11128px;
+    background-image: url(../images/background-images/background2.png);
+}
+
+.hakfnd-rectangle {
+    position: relative;
+}
+
+.hakfnd-rectangle:before {
+    position: absolute;
+    top: 220px;
+    left: 0;
+    height: 600px;
+    width: 100%;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#434c61+0,7db9e8+100&1+0,0+100 */
+    background: -moz-linear-gradient(top, rgba(67, 76, 97, 1) 0%, rgba(125, 185, 232, 0) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(67, 76, 97, 1) 0%, rgba(125, 185, 232, 0) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(67, 76, 97, 1) 0%, rgba(125, 185, 232, 0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#434c61', endColorstr='#007db9e8', GradientType=0); /* IE6-9 */
+    opacity: 0.05;
+    content: "";
+    -webkit-transform: rotate(-30deg) scale(1.5);
+    -ms-transform: rotate(-30deg) scale(1.5);
+    transform: rotate(-30deg) scale(1.5);
+    z-index: -1;
+}
+
+
+.hakfnd-hack:after {
+    position: absolute;
+    bottom: 230px;
+    left: 0;
+    height: 600px;
+    width: 100%;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#434c61+0,7db9e8+100&1+0,0+100 */
+    background: -moz-linear-gradient(top, rgba(67, 76, 97, 1) 0%, rgba(125, 185, 232, 0) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(67, 76, 97, 1) 0%, rgba(125, 185, 232, 0) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(67, 76, 97, 1) 0%, rgba(125, 185, 232, 0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#434c61', endColorstr='#007db9e8', GradientType=0); /* IE6-9 */
+    opacity: 0.05;
+    content: "";
+    -webkit-transform: rotate(30deg) scale(1.5);
+    -ms-transform: rotate(30deg) scale(1.5);
+    transform: rotate(30deg) scale(1.5);
+    z-index: -1;
+}
+
+.hakfnd-section-title {
+    max-width: 910px;
+    padding-bottom: 30px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.hakfnd-section-title h2 {
+    font-weight: 800;
+    font-size: 36px;
+}
+
+.hack-title {
+    padding-bottom: 0;
+    max-width: 450px;
+    margin: 0 0 0 auto;
+    font-weight: 800;
+    font-size: 30px;
+}
+
+.hack-item {
+}
+
+.hack-white-color-item {
+    color: #ffffff;
+}
+
+.hack-item.hack-spacer-one {
+    margin-top: 0;
+}
+
+.hack-item.hack-spacer-two {
+    margin-bottom: 20px;
+}
+
+.hack-info h2 {
+    font-size: 22px;
+}
+
+/* 
+Hakfnd Investors CSS 
+*/
+.hakfnd-investors {
+    text-align: center;
+}
+
+.investors-wrap {
+    padding: 0 10px;
+}
+
+.investors-item {
+    padding-bottom: 35px;
+}
+
+.investors-item .hakfnd-icon {
+    padding-bottom: 21px;
+}
+
+.investors-item h3 {
+    padding-bottom: 13px;
+    font-size: 18px;
+    letter-spacing: -0.2px;
+}
+
+.investor-benefits {
+    padding-top: 25px;
+}
+
+.investor-benefits h2 {
+    padding-bottom: 50px;
+    font-weight: 800;
+    font-size: 28px;
+}
+
+.benefit-item .hakfnd-icon {
+    float: left;
+}
+
+.benefit-info {
+    overflow: hidden;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.benefit-info h3 {
+    padding-bottom: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 18px;
+}
+
+/* 
+Hakfnd Overview CSS 
+*/
+.hakfnd-overview {
+    padding: 100px 0;
+    color: #ffffff;
+    background-image: url(../images/background-images/background1.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hakfnd-overview .hakfnd-section-title {
+    max-width: 550px;
+}
+
+.hakfnd-overview .hakfnd-section-title h2 {
+    color: #ed6a6a;
+}
+
+.overview-title {
+    padding-bottom: 40px;
+    text-align: center;
+    font-weight: 800;
+    font-size: 33px;
+}
+
+.overview-item {
+    padding-bottom: 20px;
+}
+
+.overview-item h3 {
+    padding-bottom: 5px;
+    color: #ed6a6a; /*#ed6a6a*/
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.overview-item h4 {
+    color: #ed6a6a;
+    font-weight: 800;
+    font-size: 36px;
+}
+
+.traction {
+    padding: 0 50px;
+}
+
+.traction h3 {
+    padding-bottom: 2px;
+    font-size: 30px;
+}
+
+.traction h2 {
+    padding-bottom: 5px;
+    color: #ed6a6a;
+    font-weight: 800;
+    font-size: 60px;
+    line-height: 70px;
+}
+
+.traction h4 {
+    padding-bottom: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 26px;
+}
+
+.traction h5 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.hakfnd-skill {
+    padding-top: 50px;
+    text-align: center;
+}
+
+.skill-item:hover .skill-title,
+.skill-item:hover .circle-counter {
+    color: #ed6a6a;
+}
+
+.skill-main-title {
+    padding-bottom: 45px;
+    font-weight: 800;
+    font-size: 36px;
+}
+
+.circle-progressbar {
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+}
+
+.circle-counter {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    padding: 0 20px;
+    font-weight: 800;
+    font-size: 30px;
+    content: "";
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    -webkit-transition: all ease .4s;
+    -ms-transition: all ease .4s;
+    transition: all ease .4s;
+    z-index: 1;
+}
+
+.skill-title {
+    padding-top: 15px;
+    font-size: 20px;
+    font-weight: 800;
+    text-transform: uppercase;
+    -webkit-transition: all ease .4s;
+    -ms-transition: all ease .4s;
+    transition: all ease .4s;
+}
+
+.skill-subtitle {
+    padding: 30px 0 0;
+    font-size: 18px;
+}
+
+.skill-logo {
+    padding: 15px 0 20px;
+}
+
+.skill-logo .hakfnd-image {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 15px 25px;
+}
+
+.voda-logo {
+    margin-top: 50px;
+}
+
+/* 
+Hakfnd Portfolio 
+*/
+.hakfnd-portfolio {
+    padding: 100px 0 70px;
+}
+
+.hakfnd-portfolio.hakfnd-rectangle:before {
+    top: 0;
+    -webkit-transform: rotate(30deg) scale(1.5);
+    -ms-transform: rotate(30deg) scale(1.5);
+    transform: rotate(30deg) scale(1.5);
+}
+
+.hakfnd-portfolio:after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 600px;
+    width: 100%;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#434c61+0,7db9e8+100&1+0,0+100 */
+    background: -moz-linear-gradient(top, rgba(67, 76, 97, 1) 0%, rgba(125, 185, 232, 0) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(67, 76, 97, 1) 0%, rgba(125, 185, 232, 0) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(67, 76, 97, 1) 0%, rgba(125, 185, 232, 0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#434c61', endColorstr='#007db9e8', GradientType=0); /* IE6-9 */
+    opacity: 0.05;
+    content: "";
+    -webkit-transform: rotate(-30deg) scale(1.5);
+    -ms-transform: rotate(-30deg) scale(1.5);
+    transform: rotate(-30deg) scale(1.5);
+    z-index: -1;
+}
+
+.hakfnd-portfolio .hakfnd-section-title {
+    padding-bottom: 20px;
+}
+
+.portfolio-item-wrap {
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+.hakfnd-portfolio .background-style-two {
+    top: 400px;
+    width: 40.50%;
+}
+
+.hakfnd-portfolio .background-style-three {
+    bottom: 1000px;
+}
+
+.portfolio-main-title {
+    padding-bottom: 45px;
+    font-size: 28px;
+}
+
+.acquired-item {
+    padding: 25px;
+    margin-bottom: 45px;
+    background: #ffffff;
+    -webkit-border-radius: 10px;
+    -ms-border-radius: 10px;
+    border-radius: 10px;
+    -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    -ms-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+.acquired-item .hakfnd-image {
+    padding-bottom: 10px;
+}
+
+.acquired-item h4,
+.featured-item h4 {
+    padding-bottom: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+}
+
+.acquired-item p,
+.featured-item p {
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.portfolio-link {
+    padding: 25px 0 0;
+}
+
+.portfolio-link a {
+    color: #ff6a55;
+}
+
+.portfolio-link a:hover, .portfolio-link a:focus {
+    color: #2e364a;
+}
+
+.featured-item {
+    padding: 30px 30px 48px;
+    margin-bottom: 45px;
+    background: #ffffff;
+    -webkit-border-radius: 10px;
+    -ms-border-radius: 10px;
+    border-radius: 10px;
+    -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    -ms-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+.featured-item .hakfnd-image {
+    padding-bottom: 20px;
+}
+
+.company-invest {
+    padding-top: 20px;
+    text-align: center;
+}
+
+.company-invest .hakfnd-section-title {
+    padding-bottom: 5px;
+}
+
+.company-invest-wrap {
+    padding-top: 30px;
+}
+
+.company-invest p span {
+    font-weight: 700;
+    color: #ff6967;
+    font-size: 22px;
+}
+
+.company-invest-item .hakfnd-icon {
+    float: left;
+}
+
+.company-invest-info {
+    overflow: hidden;
+    padding-left: 20px;
+    text-align: left;
+}
+
+.btn-hack {
+    background-color: #2e364a;
+    color: #ffffff;
+    border: none;
+}
+
+.btn-hack:hover {
+    background-color: #ff6a55;
+}
+
+.btn-hac:after {
+
+}
+/* 
+Hakfnd Team 
+*/
+.hakfnd-team.hakfnd-rectangle:before {
+    top: auto;
+    bottom: -100px;
+    -webkit-transform: rotate(30deg) scale(1.5);
+    -ms-transform: rotate(30deg) scale(1.5);
+    transform: rotate(30deg) scale(1.5);
+}
+
+.hakfnd-team .hakfnd-section-title {
+    padding-bottom: 105px;
+}
+
+.team-item {
+    padding: 35px 20px;
+    margin-bottom: 150px;
+    background: #323a4f;
+    color: #ffffff;
+    text-align: center;
+    -webkit-border-radius: 10px;
+    -ms-border-radius: 10px;
+    border-radius: 10px;
+}
+
+.team-item .hakfnd-image {
+    padding-bottom: 20px;
+    margin-top: -125px;
+}
+
+.team-item .hakfnd-image img {
+    max-width: 150px;
+    -webkit-border-radius: 100%;
+    -ms-border-radius: 100%;
+    border-radius: 100%;
+}
+
+.team-item h3 {
+    font-size: 20px;
+    color: #ff6a55;
+}
+
+.team-item h3 a {
+    color: inherit;
+}
+
+.team-item h4 {
+    padding-bottom: 15px;
+    min-height: 58px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+.team-item p {
+    min-height: 180px;
+    line-height: 24px;
+}
+
+.team-item .hakfnd-icon,
+.advisor-item .hakfnd-icon {
+    padding-top: 10px;
+    font-size: 30px;
+}
+
+.team-item .hakfnd-icon a,
+.advisor-item .hakfnd-icon a {
+    margin: 0 15px;
+    color: #ff6967;
+}
+
+.team-item .hakfnd-icon a:hover {
+    color: #ffffff;
+}
+
+.hakfnd-advisors .hakfnd-rectangle:before {
+    top: auto;
+    bottom: 0;
+}
+
+.hakfnd-advisors {
+    margin-top: -50px;
+    text-align: center;
+}
+
+.hakfnd-advisors .hakfnd-section-title {
+    padding-bottom: 40px;
+}
+
+.advisor-item {
+    background: #323a4f;
+    color: #ffffff;
+    padding: 35px 20px;
+    margin-bottom: 75px;
+    -webkit-border-radius: 10px;
+    -ms-border-radius: 10px;
+}
+
+.advisor-item .hakfnd-image {
+    padding-bottom: 20px;
+}
+
+.advisor-item .hakfnd-image img {
+    max-width: 150px;
+    -webkit-border-radius: 100%;
+    -ms-border-radius: 100%;
+    border-radius: 100%;
+}
+
+.advisor-item h2 {
+    color: #ff6a55;
+    font-size: 20px;
+}
+
+.advisor-item h2 a {
+    color: inherit;
+}
+
+.advisor-item h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+.advisor-item p {
+    line-height: 24px;
+}
+
+.advisor-item .hakfnd-icon a:hover {
+    color: #2e364a;
+}
+
+.bottom-background {
+    padding-top: 40px;
+    background-image: url(../images/background-images/Footer-background-2.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+/* 
+Hakfnd Documentation 
+*/
+.hakfnd-documentation .hakfnd-section-title {
+    padding-bottom: 40px;
+}
+
+.language-option {
+    padding-bottom: 35px;
+}
+
+/* 
+Hakfnd Footer 
+*/
+.hakfnd-footer {
+    /*background-color: rgb(49, 57, 79);;*/
+    /*background-image: url(../images/background-images/Footer-background-2.png);*/
+    padding: 60px 0 40px;
+    color: #ffffff;
+}
+
+.footer-title, .footer-item h2 {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.footer-item .hakfnd-logo {
+    padding: 5px 0 20px;
+}
+
+.footer-item p a {
+    color: inherit;
+}
+
+.footer-item p a:hover {
+    color: #eb6a69;
+}
+
+.footer-link {
+    padding-left: 100px;
+}
+
+.footer-link ul {
+    padding-top: 150px;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    list-style: none;
+}
+
+.footer-link ul li {
+    padding: 0 0 8px 10px;
+    position: relative;
+}
+
+.footer-link ul li:after {
+    position: absolute;
+    left: 0;
+    top: 11px;
+    height: 2px;
+    width: 2px;
+    background: #ffffff;
+    content: "";
+    z-index: 1;
+}
+
+.footer-link ul li a {
+    color: inherit;
+}
+
+.footer-link ul li a:hover,
+.footer-social .hakfnd-social a:hover {
+    color: #c2c4cb;
+}
+
+.footer-social .hakfnd-social {
+    font-size: 23px;
+}
+
+.footer-social .hakfnd-social a {
+    color: #eb6a69;
+    margin-left: 20px;
+}
+
+.hakfnd-copyright {
+    padding-top: 40px;
+    text-align: center;
+}
+
+.hakfnd-copyright p {
+    font-size: 15px;
+}
+
+.alert-success {
+    color: #FBE0E0;
+    background-color: rgb(237, 106, 106);
+    border-color: #F18888;
+    font-size: 16px;
+}
+
+.alert-success .alert-link {
+    color: white;
+    font-size: 18px;
+}
+
+/*
+Testomonials
+*/
+.logo-spacer {
+    padding-bottom: 30px;
+}
+
+.click {
+    opacity: .4;
+}
+
+/*
+Cookie and Privacy
+*/
+
+#cookiePrivacy {
+    background-color: rgba(20,20,20,0.8);
+    min-height: 26px;
+    font-size: 14px;
+    color: #ffffff;
+    line-height: 26px;
+    padding: 8px 0 8px 30px;
+    font-family: 'Montserrat', sans-serif;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: none;
+    z-index: 9999;
+}
+
+#cookiePrivacy a {
+    /*color: #eb6969;;*/
+    text-decoration: underline;
+}
+
+#cookiePrivacy a:hover {
+    color: #ffffff
+}
+
+#closeCookiePrivacy {
+    float: right;
+    display: inline-block;
+    cursor: pointer;
+    height: 20px;
+    width: 20px;
+    margin: -15px 0 0 0;
+    font-weight: bold;
+}
+
+#cookiePrivacy a.cookiePrivacyApprove {
+    background-color: #eb6969;;
+    color: #000;
+    display: inline-block;
+    border-radius: 20px;
+    padding: 0 20px;
+    cursor: pointer;
+    float: center;
+    margin: 0 60px 0 10px;
+}
+
+#cookiePrivacy a.cookiePrivacyApprove:hover {
+    background-color: #ffffff;
+}
+
