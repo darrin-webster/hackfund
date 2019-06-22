@@ -1466,7 +1466,7 @@ Cookie and Privacy
     font-size: 14px;
     color: #ffffff;
     line-height: 26px;
-    padding: 8px 0 8px 30px;
+    padding: 8px 150px 8px 180px;
     font-family: 'Montserrat', sans-serif;
     position: fixed;
     bottom: 0;
@@ -1477,7 +1477,7 @@ Cookie and Privacy
 }
 
 #cookiePrivacy a {
-    /*color: #eb6969;;*/
+    color: #ffffff;
     text-decoration: underline;
 }
 
